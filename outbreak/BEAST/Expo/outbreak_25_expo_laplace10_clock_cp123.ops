@@ -1,0 +1,14 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(kappa)                                      0.228   196885     23470    0.12     0.2398      
+frequencies                                       0.035   195470     23838    0.12     0.238       
+scale(alpha)                                      0.132   196452     23397    0.12     0.2406      
+scale(clock.rate)                                 0.482   586503     66881    0.11     0.2379      
+up:nodeHeights(treeModel) down:clock.rate         0.867   587833     54512    0.09     0.2329      
+allNus                                            0.183   586742     37986    0.06     0.2408      
+subtreeLeap(treeModel)                            0.098   5884528    276122   0.05     0.2321      
+subtreeJump(treeModel)                            NaN     588459     33990    0.06     0.0934      
+scale(exponential.popSize)                        0.36    589250     3612     0.01     0.239       
+exponential.growthRate                            5.902   587878     3753     0.01     0.2398      
+
