@@ -1,13 +1,13 @@
 {
   "name": "LHFV Current Outbreak Simulation",
-  "referenceConfigPath": "../artic-workshop/rampart/LHFV_v1.0.json",
-  "referencePanelPath": "../artic-workshop/rampart/reference-genomes.fasta",
-  "samples": [{"name": "OB_C", "description": "", "barcodes": ["OB_C"]},
-              {"name": "case260", "description": "", "barcodes": ["case260"]},
-              {"name": "case321", "description": "", "barcodes": ["case321"]},
-              {"name": "contaminant", "description": "", "barcodes": ["contaminant"]},
-              {"name": "case352", "description": "", "barcodes": ["case352"]},
-              {"name": "case370", "description": "", "barcodes": ["case370"]}],
-  "basecalledPath": "../artic-workshop/rampart/data/basecalled/",
-  "demuxedPath": "../artic-workshop/rampart/data/demuxed/"
+  "referenceConfigPath": "LHFV_v1.0.json",
+  "referencePanelPath": "reference-genomes.fasta",
+  "samples": [{"name": "OB_C", "description": "", "barcodes": ["BC11"]},
+              {"name": "case260", "description": "", "barcodes": ["BC09"]},
+              {"name": "case321", "description": "", "barcodes": ["BC07"]},
+              {"name": "contaminant", "description": "", "barcodes": ["BC12"]},
+              {"name": "case352", "description": "", "barcodes": ["BC08"]},
+              {"name": "case370", "description": "", "barcodes": ["BC10"]}],
+  "basecalledPath": "./data/basecalled/",
+  "demuxedPath": "./data/demuxed/"
 }
