@@ -1,0 +1,2 @@
+augur/results/* # intermediate augur files
+.snakemake/

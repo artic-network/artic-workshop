@@ -1,5 +1,5 @@
 {
-  "title": "Phylogeny of historical EBOV outbreaks",
+  "title": "LHFV Current Outbreak Simulation",
   "color_options": {
     "gt": {
       "menuItem": "genotype",
@@ -13,11 +13,11 @@
       "type": "continuous",
       "key": "num_date"
     },
-    "country": {
+    "location": {
     }
   },
   "geo": [
-    "country"
+    "location"
   ],
   "maintainer": [
     "ARTIC",

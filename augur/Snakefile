@@ -1,12 +1,11 @@
 rule all:
     input:
-        auspice_tree = "auspice/ebov_tree.json",
-        auspice_meta = "auspice/ebov_meta.json"
+        auspiceJSON = "auspice/LHFV.json"
 
 rule files:
     params:
-        input_fasta = "../reference_genomes/ebov-reference-genomes-35.fasta",
-        reference = "config/ebola_outgroup.gb",
+        input_fasta = "../outbreak/all.fasta",
+        reference = "../reference_genomes/reference_genome.gb",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"
@@ -21,7 +20,7 @@ rule parse:
         sequences = "results/sequences.fasta",
         metadata = "results/metadata.tsv"
     params:
-        fasta_fields = "accession strain country date"
+        fasta_fields = "strain location something date"
     shell:
         """
         augur parse \
@@ -83,8 +82,7 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         coalescent = "0.01",
-        date_inference = "marginal",
-        root = "Bonduni deRoover"
+        date_inference = "marginal"
     shell:
         """
         augur refine \
@@ -96,8 +94,7 @@ rule refine:
             --timetree \
             --coalescent {params.coalescent} \
             --date-confidence \
-            --date-inference {params.date_inference} \
-            --root {params.root}
+            --date-inference {params.date_inference}
         """
 
 rule ancestral:
@@ -147,8 +144,8 @@ rule export:
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
-        auspice_tree = rules.all.input.auspice_tree,
-        auspice_meta = rules.all.input.auspice_meta
+        auspice_tree = "auspice/LHFV_tree.json",
+        auspice_meta = "auspice/LHFV_meta.json"
     shell:
         """
         augur export \
@@ -163,6 +160,24 @@ rule export:
             --output-tree {output.auspice_tree} \
             --output-meta {output.auspice_meta}
         """
+
+rule combine:
+    message: "Combining auspice meta & tree JSONs for github-pages version of auspice"
+    input:
+        tree = rules.export.output.auspice_tree,
+        meta = rules.export.output.auspice_meta
+    output:
+        auspiceJSON = rules.all.input.auspiceJSON
+    run:
+        import json
+        with open(input.tree, 'r') as fh:
+            tree = json.load(fh)
+        with open(input.meta, 'r') as fh:
+            meta = json.load(fh)
+        data = {"tree": tree, "meta": meta};
+        handle = open(output.auspiceJSON, 'w');
+        json.dump(data, handle, indent=2, sort_keys=True)
+        handle.close()
 
 rule clean:
     message: "Removing directories: {params}"
