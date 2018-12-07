@@ -1,0 +1,98 @@
+{
+  "annotations": {
+    "GP": {
+      "end": 400,
+      "start": 0,
+      "strand": 1
+    },
+    "L": {
+      "end": 700,
+      "start": 399,
+      "strand": 1
+    },
+    "NP": {
+      "end": 1000,
+      "start": 849,
+      "strand": 1
+    },
+    "VP24": {
+      "end": 2500,
+      "start": 1499,
+      "strand": 1
+    },
+    "VP30": {
+      "end": 1500,
+      "start": 999,
+      "strand": 1
+    },
+    "VP35": {
+      "end": 3000,
+      "start": 2499,
+      "strand": 1
+    },
+    "VP40": {
+      "end": 850,
+      "start": 699,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 3063,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "location": {
+      "color_map": [
+        [
+          "locA",
+          "#2c7fb8"
+        ],
+        [
+          "locB",
+          "#d95f0e"
+        ]
+      ],
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    }
+  },
+  "geo": {
+    "location": {
+      "locA": {
+        "latitude": 55.95,
+        "longitude": -3.2
+      },
+      "locB": {
+        "latitude": 52.5,
+        "longitude": -1.9
+      }
+    }
+  },
+  "maintainer": [
+    "ARTIC",
+    "http://artic.network"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "LHFV Current Outbreak Simulation",
+  "updated": "07 Dec 2018",
+  "virus_count": 24
+}
