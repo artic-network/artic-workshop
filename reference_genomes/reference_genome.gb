@@ -1,0 +1,79 @@
+LOCUS       edinburg               3063 bp    DNA              VRL 07-DEC-2018
+DEFINITION  Zika virus strain PF13/251013-18, complete genome.
+ACCESSION   XXXXXXXX
+VERSION     XXXXXXXX
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     source          1..3063
+                     /collection_date="XXXX-XX-XX"
+                     /country="locX"
+                     /organism="outbreak-reference"
+                     /strain="edinburg"
+     CDS             1..400
+                     /gene="GP"
+     CDS             400..700
+                     /gene="L"
+     CDS             700..850
+                     /gene="VP40"
+     CDS             850..1000
+                     /gene="NP"
+     CDS             1000..1500
+                     /gene="VP30"
+     CDS             1500..2500
+                     /gene="VP24"
+     CDS             2500..3000
+                     /gene="VP35"
+ORIGIN
+        1 gcaaggacaa tttgcaacga gacttggcag cggaaatggc agaggaagag tcatcaacct
+       61 gttattcgtg ttagtgtagc attgccccat gcttaggcaa tgccattaat ttgccaaaat
+      121 cagaatgaat aagcgaacga ccgggaggta gtacgtgcca tgtaagcggt aacatagaat
+      181 atctgcaaat tgcaaatggc caactaaatc gcgaacggcc agcaagactt tgaattattg
+      241 caggtcgtat gaatagagaa caacggcgcg cgagactatt gactggttaa ggagatggag
+      301 cgcgaagata tcacgcatta gtaaatacaa tctcattgac aagtaatctg caagtaaaag
+      361 atccggtcta cttataactg acgagtgaat aaagaacgga tcgcgatgga atcacatgct
+      421 gattttatcg agttagacta agtcgaacga atcacctacc acatactatt ataggctatc
+      481 aatgagtaac agactcaaca attagaataa gcacgaacta tctgtaacga gacatggcag
+      541 cgtaaatggc aacgaaaaag ccaccaaccc gtgatcaggg tgagtgttgc tctaccgcat
+      601 gcataggcaa tgccacttat atgtcaaaat acggtggttc aatgaggcgt gtattaggct
+      661 gaattagaat aaacgcgaga ggtccagcgt tgagaagatt ttcaacgtga ctgaggttat
+      721 actatttccg atgttgatgc cagttagaat gttaatcagt ttgctcgcat tgcctaatag
+      781 tgtcaccgca tttccaccca accacatgaa ttccgagcta gtgagcggta gatggccaat
+      841 gacgaagtcg gtatactgct ctgaaaagca acaattgagc acgctatgcc gtcacaaaac
+      901 tgactcatcg ccaatgccaa agcatttgag acctgacaac ctcaagtctt acaggtatag
+      961 ccacatatac taataccacc tgaactggag atggagtact gaataactat gtgctgtcgc
+     1021 caaaatgaat agcagttgat cgtggaaagg ccctactagg tctcgtagat ggcgagatgt
+     1081 agtgtttgcc acgcccgtga ttgagcgcgt acgatttgta acgaaacctg gcaacgcaag
+     1141 tggcagcgca aatcacacca acctgtcatt cgggtctccg tggctttgcc acacgcataa
+     1201 gccatgccgc taatatgcca aaacttccag gtgcgctaga cacacgaatg ggagctgctg
+     1261 tgtcaaatgg aaaccagagt gtcaacatag tgtcaactac tcgcgtaaca gcgggcgaca
+     1321 cagaggagtg cagtagtagc ccgagattag agagaagcgt taacgattat ggaagtcata
+     1381 cgagtttctg gagagaatca gatggaatcc gagcaggtcg agaactgtat taatggtttt
+     1441 cagcgggagc cgatcgacga gatgatatgc agctagggac gggcgaacac gtaaaccgtg
+     1501 gtacaacaac attctatcaa gagcacagtt gtccaaaata tcaacgagga aataggccac
+     1561 acgagcttgg cgtcacactc ggaggattca ctcgcttctc acagtgaggt cgaaaacacc
+     1621 gaagaaaact cagaggactg agcaagaaca atatgcaatg agacgtggca acggaaatgg
+     1681 cagagaaagt cacaccagcc tgtcataagg gtctccgtcg cacttccgca cgcataagca
+     1741 atgccgttga tttgccagaa tacacaccgg gaggaatgaa acgaaggcag gcaaaatatc
+     1801 tagcaaaatg aacctgcacg tacagggatt aattgacaga acgagcctgc acgcacctgt
+     1861 gctatgccgg ccaggatata gcagaatgaa ccggcaagga cgtctgttgt tgaggagact
+     1921 gtagaacgaa tgcaagtgac gcattgatcg acaatcagac aggtagagcg aatatgcgag
+     1981 tgatcgactc gggcaatcaa tatcaacact cagagacagt gtaaaagtgg attggcaagc
+     2041 tcgtaactgg caagaggcga aatttgtgag tagcagcggg caaacggcga gccggaagag
+     2101 ctcggggctc gtaacattag tcattgagct cgcactatat gcaatgaaac ctggcaacgc
+     2161 aagtggcaac gcaagagcca tcagccagtt atacgggtgt ctgttgcatt accccacgcg
+     2221 tgagcgatgc ctttaatatg ccagaatttt atcgttgagt gaacccacgc aaataagtcc
+     2281 acacagtagc agaagtcttt tcaaagggat aatgcgaacc agccgcaaag ggaaactgaa
+     2341 tgtcataatc agcttcaggg tatcgagtct tagccctgtc gacaagagcc aatgttcaga
+     2401 tggatgagat tctcagatct gagcacgtgg gagggcgatc gcaatctggc tcccagtttt
+     2461 gtgaatgaag atggcgtcga ccatgtaggt aggctctggc taatcctgca cgtaccatcg
+     2521 atggagaata ggccacgtaa ctaatcaaca cgcagaactg aaccagggca gtggagttgt
+     2581 aaacagctgt ggagcgtaat taagcgcgca cgatatgcaa cgaaacttgg cagcgcaagt
+     2641 ggcagcggaa gtctcatcaa cctgttattc gagtaagtgt cgcattaccg cacgcgtagg
+     2701 cgatgcctct tatttgtcag aactccatta agtcctgagt tcgcctagca atcacttgtc
+     2761 atacggaaga aacggaggag ccagaagagt gccaactgca aaactcgttg gcctctcatt
+     2821 cgctagccag tcacgctcgg acgatatgtg atcagaccaa tgaaacttgg cagcgaaaaa
+     2881 gtttagcttc ccattgaact gttgtcatca caacagaacg ggcaactaac gagactgtgg
+     2941 ttcaacggaa ggctagaacg atatgctgag cccgtacaat ctgcaatgaa acgtggcaaa
+     3001 ggaaatggca gcgtaaatct catcagccag taattagagt tagtgtagct ttaccacacg
+     3061 cg
+//
