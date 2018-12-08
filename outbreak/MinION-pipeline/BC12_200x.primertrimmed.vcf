@@ -1,0 +1,55 @@
+##fileformat=VCFv4.2
+##INFO=<ID=TotalReads,Number=1,Type=Integer,Description="The number of event-space reads used to call the variant">
+##INFO=<ID=SupportFraction,Number=1,Type=Float,Description="The fraction of event-space reads that support the variant">
+##INFO=<ID=BaseCalledReadsWithVariant,Number=1,Type=Integer,Description="The number of base-space reads that support the variant">
+##INFO=<ID=BaseCalledFraction,Number=1,Type=Float,Description="The fraction of base-space reads that support the variant">
+##INFO=<ID=AlleleCount,Number=1,Type=Integer,Description="The inferred number of copies of the allele">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample
+case0|Hobbiton|2018	85	.	C	T	5633.6	PASS	BaseCalledReadsWithVariant=299;BaseCalledFraction=0.736453;TotalReads=385;AlleleCount=1;SupportFraction=0.965279	GT	1
+case0|Hobbiton|2018	121	.	C	T	8581.5	PASS	BaseCalledReadsWithVariant=338;BaseCalledFraction=0.842893;TotalReads=385;AlleleCount=1;SupportFraction=0.968237	GT	1
+case0|Hobbiton|2018	127	.	G	A	8581.5	PASS	BaseCalledReadsWithVariant=356;BaseCalledFraction=0.887781;TotalReads=385;AlleleCount=1;SupportFraction=0.964023	GT	1
+case0|Hobbiton|2018	201	.	C	T	7560.1	PASS	BaseCalledReadsWithVariant=343;BaseCalledFraction=0.855362;TotalReads=385;AlleleCount=1;SupportFraction=0.929559	GT	1
+case0|Hobbiton|2018	204	.	C	T	7560.1	PASS	BaseCalledReadsWithVariant=345;BaseCalledFraction=0.860349;TotalReads=385;AlleleCount=1;SupportFraction=0.979948	GT	1
+case0|Hobbiton|2018	285	.	G	A	2013.6	PASS	BaseCalledReadsWithVariant=311;BaseCalledFraction=0.775561;TotalReads=385;AlleleCount=1;SupportFraction=0.860802	GT	1
+case0|Hobbiton|2018	333	.	T	G	5077.2	PASS	BaseCalledReadsWithVariant=362;BaseCalledFraction=0.902743;TotalReads=385;AlleleCount=1;SupportFraction=0.983592	GT	1
+case0|Hobbiton|2018	348	.	C	T	5867.3	PASS	BaseCalledReadsWithVariant=328;BaseCalledFraction=0.817955;TotalReads=385;AlleleCount=1;SupportFraction=0.982363	GT	1
+case0|Hobbiton|2018	393	.	A	G	2412.5	PASS	BaseCalledReadsWithVariant=287;BaseCalledFraction=0.715711;TotalReads=385;AlleleCount=1;SupportFraction=0.880605	GT	1
+case0|Hobbiton|2018	498	.	A	G	3171.1	PASS	BaseCalledReadsWithVariant=340;BaseCalledFraction=0.84788;TotalReads=385;AlleleCount=1;SupportFraction=0.93576	GT	1
+case0|Hobbiton|2018	558	.	A	T	11935.2	PASS	BaseCalledReadsWithVariant=924;BaseCalledFraction=0.777124;TotalReads=921;AlleleCount=1;SupportFraction=0.969707	GT	1
+case0|Hobbiton|2018	573	.	G	C	15803.8	PASS	BaseCalledReadsWithVariant=1084;BaseCalledFraction=0.91169;TotalReads=920;AlleleCount=1;SupportFraction=0.964202	GT	1
+case0|Hobbiton|2018	585	.	T	G	9839.2	PASS	BaseCalledReadsWithVariant=885;BaseCalledFraction=0.744323;TotalReads=920;AlleleCount=1;SupportFraction=0.952171	GT	1
+case0|Hobbiton|2018	603	.	A	G	11631.8	PASS	BaseCalledReadsWithVariant=973;BaseCalledFraction=0.819714;TotalReads=892;AlleleCount=1;SupportFraction=0.934218	GT	1
+case0|Hobbiton|2018	606	.	G	A	11631.8	PASS	BaseCalledReadsWithVariant=952;BaseCalledFraction=0.802022;TotalReads=892;AlleleCount=1;SupportFraction=0.944202	GT	1
+case0|Hobbiton|2018	666	.	A	G	3649.6	PASS	BaseCalledReadsWithVariant=321;BaseCalledFraction=0.775362;TotalReads=400;AlleleCount=1;SupportFraction=0.958579	GT	1
+case0|Hobbiton|2018	705	.	A	G	2680.0	PASS	BaseCalledReadsWithVariant=350;BaseCalledFraction=0.845411;TotalReads=400;AlleleCount=1;SupportFraction=0.915812	GT	1
+case0|Hobbiton|2018	792	.	T	C	5380.6	PASS	BaseCalledReadsWithVariant=316;BaseCalledFraction=0.763285;TotalReads=400;AlleleCount=1;SupportFraction=0.968348	GT	1
+case0|Hobbiton|2018	819	.	T	C	8510.2	PASS	BaseCalledReadsWithVariant=352;BaseCalledFraction=0.848193;TotalReads=400;AlleleCount=1;SupportFraction=0.950679	GT	1
+case0|Hobbiton|2018	825	.	G	C	8510.2	PASS	BaseCalledReadsWithVariant=338;BaseCalledFraction=0.814458;TotalReads=400;AlleleCount=1;SupportFraction=0.952138	GT	1
+case0|Hobbiton|2018	840	.	T	C	3193.5	PASS	BaseCalledReadsWithVariant=368;BaseCalledFraction=0.886747;TotalReads=401;AlleleCount=1;SupportFraction=0.902046	GT	1
+case0|Hobbiton|2018	924	.	A	G	4256.9	PASS	BaseCalledReadsWithVariant=329;BaseCalledFraction=0.792771;TotalReads=401;AlleleCount=1;SupportFraction=0.964107	GT	1
+case0|Hobbiton|2018	954	.	G	A	5892.7	PASS	BaseCalledReadsWithVariant=316;BaseCalledFraction=0.761446;TotalReads=401;AlleleCount=1;SupportFraction=0.924074	GT	1
+case0|Hobbiton|2018	957	.	A	G	5892.7	PASS	BaseCalledReadsWithVariant=303;BaseCalledFraction=0.73012;TotalReads=401;AlleleCount=1;SupportFraction=0.958341	GT	1
+case0|Hobbiton|2018	1011	.	G	A	2150.3	PASS	BaseCalledReadsWithVariant=335;BaseCalledFraction=0.807229;TotalReads=401;AlleleCount=1;SupportFraction=0.876223	GT	1
+case0|Hobbiton|2018	1089	.	C	G	4531.6	PASS	BaseCalledReadsWithVariant=309;BaseCalledFraction=0.744578;TotalReads=401;AlleleCount=1;SupportFraction=0.959764	GT	1
+case0|Hobbiton|2018	1119	.	T	G	5699.2	PASS	BaseCalledReadsWithVariant=692;BaseCalledFraction=0.725367;TotalReads=401;AlleleCount=1;SupportFraction=0.967941	GT	1
+case0|Hobbiton|2018	1227	.	C	T	5640.1	PASS	BaseCalledReadsWithVariant=696;BaseCalledFraction=0.75162;TotalReads=411;AlleleCount=1;SupportFraction=0.971379	GT	1
+case0|Hobbiton|2018	1306	.	T	C	5584.4	PASS	BaseCalledReadsWithVariant=336;BaseCalledFraction=0.792453;TotalReads=411;AlleleCount=1;SupportFraction=0.944016	GT	1
+case0|Hobbiton|2018	1308	.	A	C	5584.4	PASS	BaseCalledReadsWithVariant=354;BaseCalledFraction=0.834906;TotalReads=411;AlleleCount=1;SupportFraction=0.959963	GT	1
+case0|Hobbiton|2018	1353	.	A	T	6475.4	PASS	BaseCalledReadsWithVariant=292;BaseCalledFraction=0.688679;TotalReads=411;AlleleCount=1;SupportFraction=0.973008	GT	1
+case0|Hobbiton|2018	1395	.	G	A	3554.7	PASS	BaseCalledReadsWithVariant=296;BaseCalledFraction=0.698113;TotalReads=411;AlleleCount=1;SupportFraction=0.945185	GT	1
+case0|Hobbiton|2018	1413	.	G	A	4015.5	PASS	BaseCalledReadsWithVariant=360;BaseCalledFraction=0.849057;TotalReads=411;AlleleCount=1;SupportFraction=0.929655	GT	1
+case0|Hobbiton|2018	1464	.	G	A	5329.3	PASS	BaseCalledReadsWithVariant=363;BaseCalledFraction=0.856132;TotalReads=411;AlleleCount=1;SupportFraction=0.977405	GT	1
+case0|Hobbiton|2018	1590	.	A	G	2735.8	PASS	BaseCalledReadsWithVariant=306;BaseCalledFraction=0.721698;TotalReads=411;AlleleCount=1;SupportFraction=0.91281	GT	1
+case0|Hobbiton|2018	1632	.	A	G	2154.3	PASS	BaseCalledReadsWithVariant=265;BaseCalledFraction=0.625;TotalReads=411;AlleleCount=1;SupportFraction=0.860425	GT	1
+case0|Hobbiton|2018	1650	.	A	G	6325.1	PASS	BaseCalledReadsWithVariant=748;BaseCalledFraction=0.85;TotalReads=411;AlleleCount=1;SupportFraction=0.970322	GT	1
+case0|Hobbiton|2018	1857	.	C	T	4181.5	PASS	BaseCalledReadsWithVariant=270;BaseCalledFraction=0.645933;TotalReads=396;AlleleCount=1;SupportFraction=0.948638	GT	1
+case0|Hobbiton|2018	1881	.	G	A	8330.2	PASS	BaseCalledReadsWithVariant=319;BaseCalledFraction=0.763158;TotalReads=396;AlleleCount=1;SupportFraction=0.904724	GT	1
+case0|Hobbiton|2018	1890	.	A	T	8330.2	PASS	BaseCalledReadsWithVariant=360;BaseCalledFraction=0.863309;TotalReads=396;AlleleCount=1;SupportFraction=0.936366	GT	1
+case0|Hobbiton|2018	1908	.	T	C	7682.8	PASS	BaseCalledReadsWithVariant=369;BaseCalledFraction=0.884892;TotalReads=396;AlleleCount=1;SupportFraction=0.950631	GT	1
+case0|Hobbiton|2018	1912	.	G	A	7682.8	PASS	BaseCalledReadsWithVariant=223;BaseCalledFraction=0.534772;TotalReads=396;AlleleCount=1;SupportFraction=0.892059	GT	1
+case0|Hobbiton|2018	1941	.	G	A	4083.4	PASS	BaseCalledReadsWithVariant=319;BaseCalledFraction=0.764988;TotalReads=396;AlleleCount=1;SupportFraction=0.888285	GT	1
+case0|Hobbiton|2018	1942	.	C	T	4083.4	PASS	BaseCalledReadsWithVariant=317;BaseCalledFraction=0.760192;TotalReads=396;AlleleCount=1;SupportFraction=0.863175	GT	1
+case0|Hobbiton|2018	1963	.	G	A	4691.9	PASS	BaseCalledReadsWithVariant=346;BaseCalledFraction=0.829736;TotalReads=396;AlleleCount=1;SupportFraction=0.94047	GT	1
+case0|Hobbiton|2018	2806	.	C	T	4997.8	PASS	BaseCalledReadsWithVariant=324;BaseCalledFraction=0.8;TotalReads=385;AlleleCount=1;SupportFraction=0.963506	GT	1
+case0|Hobbiton|2018	2925	.	A	C	4606.6	PASS	BaseCalledReadsWithVariant=289;BaseCalledFraction=0.71358;TotalReads=385;AlleleCount=1;SupportFraction=0.957639	GT	1

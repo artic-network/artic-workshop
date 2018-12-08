@@ -1,0 +1,11 @@
+bwa index /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.reference.fasta
+bwa mem -t 8 -x ont2d /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.reference.fasta demultiplex/BC09.fastq | samtools view -bS - | samtools sort -o BC09_200x.sorted.bam -
+samtools index BC09_200x.sorted.bam
+align_trim --start --normalise 200 /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.scheme.bed --report BC09_200x.alignreport.txt < BC09_200x.sorted.bam 2> BC09_200x.alignreport.er | samtools view -bS - | samtools sort -T BC09_200x - -o BC09_200x.trimmed.sorted.bam
+align_trim --normalise 200 /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.scheme.bed --report BC09_200x.alignreport.txt < BC09_200x.sorted.bam 2> BC09_200x.alignreport.er | samtools view -bS - | samtools sort -T BC09_200x - -o BC09_200x.primertrimmed.sorted.bam
+samtools index BC09_200x.trimmed.sorted.bam
+samtools index BC09_200x.primertrimmed.sorted.bam
+nanopolish variants --min-flanking-sequence 10 --fix-homopolymers -x 1000000 --progress -t 8 --reads demultiplex/filestoindex.fastq -o BC09_200x.vcf -b BC09_200x.trimmed.sorted.bam -g /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.reference.fasta -w "case0|Hobbiton|2018:1-3063"  --snps --ploidy 1
+nanopolish variants --fix-homopolymers -x 1000000 --progress -t 8 --reads demultiplex/filestoindex.fastq -o BC09_200x.primertrimmed.vcf -b BC09_200x.primertrimmed.sorted.bam -g /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.reference.fasta -w "case0|Hobbiton|2018:1-3063" --snps --ploidy 1
+vcfextract BC09_200x > BC09_200x.variants.tab
+margin_cons /home/ubuntu/artic-workshop/schemes/LHFV/V1/LHFV.reference.fasta BC09_200x.vcf BC09_200x.primertrimmed.sorted.bam a > BC09_200x.consensus.fasta

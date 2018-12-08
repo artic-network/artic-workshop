@@ -1,0 +1,18 @@
+##fileformat=VCFv4.2
+##INFO=<ID=TotalReads,Number=1,Type=Integer,Description="The number of event-space reads used to call the variant">
+##INFO=<ID=SupportFraction,Number=1,Type=Float,Description="The fraction of event-space reads that support the variant">
+##INFO=<ID=BaseCalledReadsWithVariant,Number=1,Type=Integer,Description="The number of base-space reads that support the variant">
+##INFO=<ID=BaseCalledFraction,Number=1,Type=Float,Description="The fraction of base-space reads that support the variant">
+##INFO=<ID=AlleleCount,Number=1,Type=Integer,Description="The inferred number of copies of the allele">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample
+case0|Hobbiton|2018	127	.	G	A	3388.9	PASS	BaseCalledReadsWithVariant=348;BaseCalledFraction=0.842615;TotalReads=396;AlleleCount=1;SupportFraction=0.95649	GT	1
+case0|Hobbiton|2018	261	.	C	T	1565.0	PASS	BaseCalledReadsWithVariant=379;BaseCalledFraction=0.917676;TotalReads=396;AlleleCount=1;SupportFraction=0.819211	GT	1
+case0|Hobbiton|2018	580	.	G	A	8192.1	PASS	BaseCalledReadsWithVariant=1073;BaseCalledFraction=0.873068;TotalReads=903;AlleleCount=1;SupportFraction=0.913307	GT	1
+case0|Hobbiton|2018	713	.	G	A	3635.0	PASS	BaseCalledReadsWithVariant=340;BaseCalledFraction=0.740741;TotalReads=441;AlleleCount=1;SupportFraction=0.906127	GT	1
+case0|Hobbiton|2018	894	.	A	G	3389.4	PASS	BaseCalledReadsWithVariant=370;BaseCalledFraction=0.804348;TotalReads=442;AlleleCount=1;SupportFraction=0.942596	GT	1
+case0|Hobbiton|2018	1308	.	A	G	2556.7	PASS	BaseCalledReadsWithVariant=256;BaseCalledFraction=0.563877;TotalReads=434;AlleleCount=1;SupportFraction=0.852979	GT	1
+case0|Hobbiton|2018	1401	.	G	A	3519.7	PASS	BaseCalledReadsWithVariant=405;BaseCalledFraction=0.89011;TotalReads=435;AlleleCount=1;SupportFraction=0.963763	GT	1
+case0|Hobbiton|2018	1764	.	A	G	3857.8	PASS	BaseCalledReadsWithVariant=894;BaseCalledFraction=0.832402;TotalReads=390;AlleleCount=1;SupportFraction=0.959838	GT	1
+case0|Hobbiton|2018	1978	.	G	C	2964.7	PASS	BaseCalledReadsWithVariant=295;BaseCalledFraction=0.714286;TotalReads=390;AlleleCount=1;SupportFraction=0.914541	GT	1
+case0|Hobbiton|2018	2807	.	G	A	2239.5	PASS	BaseCalledReadsWithVariant=313;BaseCalledFraction=0.77284;TotalReads=381;AlleleCount=1;SupportFraction=0.898718	GT	1
