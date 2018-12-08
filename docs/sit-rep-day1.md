@@ -4,7 +4,7 @@
 ##  Data as reported by: 7th December 2018
 
 The Ministry of Health, WHO and partners continue to respond to the Lethal Haemorrhagic Fever Virus (LHFV) outbreak in Country X and, despite ongoing challenges, remain confident that the outbreak can be contained. 
-The Ministry of Health notified the WHO of an epidemic of LHFV on October 3rd after a large cluster of individuals presented with a fever of unknown aetiology.  
+The Ministry of Health notified the WHO of an epidemic of LHFV on October 3rd after a large cluster of individuals presented with a fever of unknown aetiology.
 The index case visited the clinic on the 13th of September in the northern region of Health District A. 
 
 This is the 8th outbreak since the virus was discovered. 
