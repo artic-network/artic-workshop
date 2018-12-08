@@ -1,7 +1,7 @@
 {
   "name": "LHFV Current Outbreak Simulation",
-  "referenceConfigPath": "LHFV_v1.0.json",
-  "referencePanelPath": "reference-genomes.fasta",
+  "referenceConfigPath": "./LHFV_v1.0.json",
+  "referencePanelPath": "../reference_genomes/LHFV.fasta",
   "samples": [{"name": "OB_C", "description": "", "barcodes": ["BC11"]},
               {"name": "case260", "description": "", "barcodes": ["BC09"]},
               {"name": "case321", "description": "", "barcodes": ["BC07"]},
