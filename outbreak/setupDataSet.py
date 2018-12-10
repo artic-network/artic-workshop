@@ -146,6 +146,8 @@ for i in parsed_line_list["Case id"]:
     #print(i)
     if i in present_loc2:
         loc_list.append("Location B")
+    elif i=='case366': # The case we choose for outbreak C
+        loc_list.append("Location C")
     else:
         loc_list.append("Location A")
 
