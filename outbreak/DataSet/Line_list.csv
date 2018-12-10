@@ -1,4 +1,4 @@
-Sample Id,Id,Date of infection,Date of sampling,Contact,Outcome,Location,Case Id
+Sample Id,Id,Date of onset,Date of sampling,Contact,Outcome,Location,Case Id
 PHR-3,F58M0E,2018-09-03,2018-09-18,Unknown,Dead,Location A,case10
 PHR-6,HZPK6C,2018-09-10,2018-09-27,Unknown,Dead,Location A,case13
 PHR-9,DLQKHJ,2018-09-18,2018-09-30,Unknown,Alive,Location A,case22
@@ -34,10 +34,13 @@ PHR-78,99B0V4,2018-11-01,2018-11-19,Unknown,Dead,Location A,case155
 PHR-79,6R20NZ,2018-10-31,2018-11-19,Unknown,Dead,Location A,case145
 PHR-83,L2QDDQ,2018-11-01,2018-11-21,Unknown,Alive,Location A,case149
 PHR-85,MTT8E1,2018-10-28,2018-11-21,PHR-66,Alive,Location A,case132
+PHR-87,283Z1N,2018-11-09,2018-11-21,PHR-85,Dead,Location A,case217
 PHR-89,FBSFBA,2018-11-05,2018-11-22,PHR-71,Dead,Location A,case178
+PHR-91,LJ1POM,2018-11-07,2018-11-22,PHR-85,Alive,Location A, case197
 PHR-92,W88KMJ,2018-11-14,2018-11-27,PHR-85,Dead,Location A,case260
 PHR-93,X7ON99,2018-11-18,2018-11-27,PHR-85,Dead,Location A,case339
 PHR-94,Q1ZVN2,2018-11-20,2018-11-28,Unknown,Alive,Location A,case370
+PHR-95,KJS67F,2018-11-10,2018-11-27,PHR-85,Alive,Location A,case231
 PHR-98,CH9UT3,2018-11-18,2018-12-05,Unknown,Alive,Location A,case321
 PHR-101,ZUGLB8,2018-11-19,2018-12-08,PHR-89,Alive,Location A,case352
 PHR-103,YO6SER,2018-11-20,2018-12-10,Unknown,Alive,Location C,case366

@@ -4,4 +4,4 @@ location\sA -> location_A
 Line_list.csv/Anonymised_line_list.csv -> add date of onset.
 Line_list.csv/Anonymised_line_list.csv -> add sampleID if available
 
-PHR-85 is supposedly a superspreading event but no other genomes in prior sample
+[FIXED]PHR-85 is supposedly a superspreading event but no other genomes in prior sample
