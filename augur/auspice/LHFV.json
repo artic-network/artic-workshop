@@ -53,12 +53,16 @@
       "location": {
         "color_map": [
           [
-            "locA",
+            "Location_A",
             "#2c7fb8"
           ],
           [
-            "locB",
+            "Location_B",
             "#d95f0e"
+          ],
+          [
+            "Location_C",
+            "#1f3443"
           ]
         ],
         "key": "location",
@@ -74,13 +78,17 @@
     },
     "geo": {
       "location": {
-        "locA": {
+        "Location_A": {
           "latitude": 55.95,
           "longitude": -3.2
         },
-        "locB": {
+        "Location_B": {
           "latitude": 52.5,
           "longitude": -1.9
+        },
+        "Location_C": {
+          "latitude": 52.2,
+          "longitude": 0.12
         }
       }
     },
@@ -94,19 +102,19 @@
       "entropy"
     ],
     "title": "LHFV Current Outbreak Simulation",
-    "updated": "07 Dec 2018",
-    "virus_count": 24
+    "updated": "10 Dec 2018",
+    "virus_count": 45
   },
   "tree": {
     "aa_muts": {},
     "attr": {
       "clock_length": 0.00032658393207054214,
-      "date": "2017-07-03",
+      "date": "2017-09-28",
       "div": 0,
-      "num_date": 2017.5017895186813,
+      "num_date": 2017.7418056827144,
       "num_date_confidence": [
-        2017.2736530730733,
-        2017.7967501871206
+        2017.4877281391223,
+        2017.9733339726192
       ]
     },
     "branch_length": 0.00032658,
@@ -150,18 +158,18 @@
           ]
         },
         "attr": {
-          "clock_length": 0.008992874752583476,
-          "date": "2018-11-12",
-          "div": 0.00788715316090812,
-          "location": "locA",
-          "num_date": 2018.8651608487337,
+          "clock_length": 0.009175981102340415,
+          "date": "2018-12-11",
+          "div": 0.00887362815761677,
+          "location": "Location_C",
+          "num_date": 2018.9418206707735,
           "num_date_confidence": [
-            2018.8651608487337,
-            2018.8651608487337
+            2018.9418206707735,
+            2018.9418206707735
           ],
-          "raw_date": "2018-11-12"
+          "raw_date": "2018-12-10"
         },
-        "branch_length": 0.00899287,
+        "branch_length": 0.00917598,
         "clade": 0,
         "muts": [
           "C85T",
@@ -214,22 +222,22 @@
           "C3021T",
           "G3030A"
         ],
-        "strain": "OB_C",
-        "yvalue": 24
+        "strain": "PHR_103",
+        "yvalue": 45
       },
       {
         "aa_muts": {},
         "attr": {
-          "clock_length": 0.006941162320682529,
-          "date": "2018-07-22",
-          "div": 0.008217209155366756,
-          "num_date": 2018.5541094903945,
+          "clock_length": 0.006605579598154021,
+          "date": "2018-08-10",
+          "div": 0.007227837944593566,
+          "num_date": 2018.6056691142314,
           "num_date_confidence": [
-            2018.51311297646,
-            2018.597190211988
+            2018.5691271872713,
+            2018.6498559900072
           ]
         },
-        "branch_length": 0.00694116,
+        "branch_length": 0.00660558,
         "children": [
           {
             "aa_muts": {
@@ -241,500 +249,197 @@
               ]
             },
             "attr": {
-              "clock_length": 0.0012932336195313112,
-              "date": "2018-10-02",
-              "div": 0.008871527771627486,
-              "location": "locA",
-              "num_date": 2018.7501711156742,
+              "clock_length": 0.0008327859004635051,
+              "date": "2018-09-18",
+              "div": 0.007881967910060472,
+              "num_date": 2018.7145790554414,
               "num_date_confidence": [
-                2018.7501711156742,
-                2018.7501711156742
-              ],
-              "raw_date": "2018-10-01"
-            },
-            "branch_length": 0.00129323,
-            "clade": 1,
-            "muts": [
-              "G1646C",
-              "A2768C"
-            ],
-            "strain": "case39",
-            "yvalue": 23
-          },
-          {
-            "aa_muts": {},
-            "attr": {
-              "clock_length": 0.00013707260521186046,
-              "date": "2018-07-29",
-              "div": 0.008544181117774503,
-              "num_date": 2018.5748904825937,
-              "num_date_confidence": [
-                2018.548137769092,
-                2018.6171663808063
+                2018.6762740251656,
+                2018.7145790554414
               ]
             },
-            "branch_length": 0.00013707,
+            "branch_length": 0.00083279,
             "children": [
               {
                 "aa_muts": {},
                 "attr": {
-                  "clock_length": 0.0003312628251083121,
-                  "date": "2018-08-17",
-                  "div": 0.00887116099573169,
-                  "num_date": 2018.6251118245882,
+                  "clock_length": 0.0,
+                  "date": "2018-09-18",
+                  "div": 0.007881967910060472,
+                  "location": "Location_A",
+                  "num_date": 2018.7145790554414,
                   "num_date_confidence": [
-                    2018.5807424759716,
-                    2018.681946176686
-                  ]
+                    2018.7145790554414,
+                    2018.7145790554414
+                  ],
+                  "raw_date": "2018-09-18"
                 },
-                "branch_length": 0.00033126,
-                "children": [
-                  {
-                    "aa_muts": {
-                      "L": [
-                        "E88G"
-                      ],
-                      "VP35": [
-                        "E80G"
-                      ]
-                    },
-                    "attr": {
-                      "clock_length": 0.0009693703439480692,
-                      "date": "2018-10-10",
-                      "div": 0.01017999356865546,
-                      "location": "locB",
-                      "num_date": 2018.7720739219712,
-                      "num_date_confidence": [
-                        2018.7720739219712,
-                        2018.7720739219712
-                      ],
-                      "raw_date": "2018-10-09"
-                    },
-                    "branch_length": 0.00096937,
-                    "clade": 2,
-                    "muts": [
-                      "T231C",
-                      "A662G",
-                      "G1173T",
-                      "A2738G"
-                    ],
-                    "strain": "case28",
-                    "yvalue": 22
-                  },
-                  {
-                    "aa_muts": {
-                      "VP30": [
-                        "Q108H"
-                      ],
-                      "VP35": [
-                        "T112M",
-                        "R165H"
-                      ]
-                    },
-                    "attr": {
-                      "clock_length": 0.0012651843074886551,
-                      "date": "2018-10-26",
-                      "div": 0.01050753755698866,
-                      "num_date": 2018.816921013476,
-                      "num_date_confidence": [
-                        2018.7634821820361,
-                        2018.8213552361397
-                      ]
-                    },
-                    "branch_length": 0.00126518,
-                    "children": [
-                      {
-                        "aa_muts": {
-                          "VP30": [
-                            "H108Q"
-                          ]
-                        },
-                        "attr": {
-                          "clock_length": 0.0006071370035674808,
-                          "date": "2018-11-29",
-                          "div": 0.01116176659737131,
-                          "location": "locA",
-                          "num_date": 2018.908966461328,
-                          "num_date_confidence": [
-                            2018.908966461328,
-                            2018.908966461328
-                          ],
-                          "raw_date": "2018-11-28"
-                        },
-                        "branch_length": 0.00060714,
-                        "clade": 3,
-                        "muts": [
-                          "C1323A",
-                          "A1392G"
-                        ],
-                        "strain": "case321_new",
-                        "yvalue": 21
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 2.9248384618258305e-05,
-                          "date": "2018-10-28",
-                          "div": 0.01050753755698866,
-                          "location": "locB",
-                          "num_date": 2018.8213552361397,
-                          "num_date_confidence": [
-                            2018.8213552361397,
-                            2018.8213552361397
-                          ],
-                          "raw_date": "2018-10-27"
-                        },
-                        "branch_length": 2.925e-05,
-                        "clade": 4,
-                        "muts": [],
-                        "strain": "case81",
-                        "yvalue": 20
-                      }
-                    ],
-                    "clade": 5,
-                    "muts": [
-                      "C843T",
-                      "C933T",
-                      "G1323C",
-                      "C2834T",
-                      "G2993A"
-                    ],
-                    "strain": "NODE_0000003",
-                    "yvalue": 20.5
-                  }
-                ],
-                "clade": 6,
-                "muts": [
-                  "C3059T"
-                ],
-                "strain": "NODE_0000002",
-                "yvalue": 21.25
+                "branch_length": 0.0,
+                "clade": 1,
+                "muts": [],
+                "strain": "PHR_3",
+                "yvalue": 44
               },
               {
                 "aa_muts": {},
                 "attr": {
-                  "clock_length": 0.000753818379731286,
-                  "date": "2018-09-09",
-                  "div": 0.009198378238757117,
-                  "num_date": 2018.689173667367,
+                  "clock_length": 0.0002667543747033171,
+                  "date": "2018-10-01",
+                  "div": 0.007881967910060472,
+                  "num_date": 2018.7494646163643,
                   "num_date_confidence": [
-                    2018.6370370267452,
-                    2018.7438061222515
+                    2018.7140011677043,
+                    2018.7529089664613
                   ]
                 },
-                "branch_length": 0.00075382,
+                "branch_length": 0.00026675,
                 "children": [
                   {
-                    "aa_muts": {
-                      "VP24": [
-                        "R38*",
-                        "G91R"
-                      ]
-                    },
+                    "aa_muts": {},
                     "attr": {
-                      "clock_length": 0.0008389237256455112,
-                      "date": "2018-10-26",
-                      "div": 0.010179680621554183,
-                      "num_date": 2018.8163593101244,
+                      "clock_length": 2.6337413876656663e-05,
+                      "date": "2018-10-02",
+                      "div": 0.007881967910060472,
+                      "location": "Location_A",
+                      "num_date": 2018.7529089664613,
                       "num_date_confidence": [
-                        2018.7570328816769,
-                        2018.8372933647263
-                      ]
-                    },
-                    "branch_length": 0.00083892,
-                    "children": [
-                      {
-                        "aa_muts": {
-                          "VP24": [
-                            "T3A"
-                          ]
-                        },
-                        "attr": {
-                          "clock_length": 0.00019548458591710032,
-                          "date": "2018-11-05",
-                          "div": 0.01050665533690408,
-                          "location": "locA",
-                          "num_date": 2018.8459958932237,
-                          "num_date_confidence": [
-                            2018.8459958932237,
-                            2018.8459958932237
-                          ],
-                          "raw_date": "2018-11-05"
-                        },
-                        "branch_length": 0.00019548,
-                        "clade": 7,
-                        "muts": [
-                          "A1506G"
-                        ],
-                        "strain": "case111",
-                        "yvalue": 19
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0003760747793390135,
-                          "date": "2018-11-16",
-                          "div": 0.010506721098367571,
-                          "location": "locA",
-                          "num_date": 2018.8733744010951,
-                          "num_date_confidence": [
-                            2018.8733744010951,
-                            2018.8733744010951
-                          ],
-                          "raw_date": "2018-11-15"
-                        },
-                        "branch_length": 0.00037607,
-                        "clade": 8,
-                        "muts": [
-                          "T1170A"
-                        ],
-                        "strain": "case178",
-                        "yvalue": 18
-                      }
-                    ],
-                    "clade": 9,
-                    "muts": [
-                      "A345G",
-                      "C1611T",
-                      "G1770A"
-                    ],
-                    "strain": "NODE_0000006",
-                    "yvalue": 18.5
-                  },
-                  {
-                    "aa_muts": {
-                      "VP35": [
-                        "L152P"
+                        2018.7529089664613,
+                        2018.7529089664613
                       ],
-                      "VP40": [
-                        "P35S"
-                      ]
+                      "raw_date": "2018-10-02"
                     },
-                    "attr": {
-                      "clock_length": 0.0006984801231012946,
-                      "date": "2018-10-18",
-                      "div": 0.009852475049479243,
-                      "num_date": 2018.7950672554182,
-                      "num_date_confidence": [
-                        2018.7327962623626,
-                        2018.8251364812497
-                      ]
-                    },
-                    "branch_length": 0.00069848,
-                    "children": [
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0002998101497778341,
-                          "date": "2018-11-04",
-                          "div": 0.01017947297337671,
-                          "location": "locA",
-                          "num_date": 2018.8405201916496,
-                          "num_date_confidence": [
-                            2018.8405201916496,
-                            2018.8405201916496
-                          ],
-                          "raw_date": "2018-11-03"
-                        },
-                        "branch_length": 0.00029981,
-                        "clade": 10,
-                        "muts": [
-                          "G759A"
-                        ],
-                        "strain": "case95",
-                        "yvalue": 17
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0004984593625414887,
-                          "date": "2018-11-15",
-                          "div": 0.010506581363633999,
-                          "location": "locA",
-                          "num_date": 2018.870636550308,
-                          "num_date_confidence": [
-                            2018.870636550308,
-                            2018.870636550308
-                          ],
-                          "raw_date": "2018-11-14"
-                        },
-                        "branch_length": 0.00049846,
-                        "clade": 11,
-                        "muts": [
-                          "C1458T",
-                          "G1482A"
-                        ],
-                        "strain": "case132",
-                        "yvalue": 16
-                      }
-                    ],
-                    "clade": 12,
-                    "muts": [
-                      "C802T",
-                      "T2954C"
-                    ],
-                    "strain": "NODE_0000011",
-                    "yvalue": 16.5
+                    "branch_length": 2.634e-05,
+                    "clade": 2,
+                    "muts": [],
+                    "strain": "PHR_17",
+                    "yvalue": 43
                   },
                   {
                     "aa_muts": {},
                     "attr": {
-                      "clock_length": 0.00031133186020835895,
-                      "date": "2018-09-26",
-                      "div": 0.009198378238757117,
-                      "num_date": 2018.736373360904,
+                      "clock_length": 0.00015194818041142804,
+                      "date": "2018-10-09",
+                      "div": 0.007881967910060472,
+                      "location": "Location_A",
+                      "num_date": 2018.7693360711842,
                       "num_date_confidence": [
-                        2018.684893056736,
-                        2018.7832405875201
-                      ]
+                        2018.7693360711842,
+                        2018.7693360711842
+                      ],
+                      "raw_date": "2018-10-08"
                     },
-                    "branch_length": 0.00031133,
-                    "children": [
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0007953125287227179,
-                          "date": "2018-11-09",
-                          "div": 0.009852448865363227,
-                          "location": "locA",
-                          "num_date": 2018.8569472963723,
-                          "num_date_confidence": [
-                            2018.8569472963723,
-                            2018.8569472963723
-                          ],
-                          "raw_date": "2018-11-09"
-                        },
-                        "branch_length": 0.00079531,
-                        "clade": 13,
-                        "muts": [
-                          "C141T",
-                          "A441G"
-                        ],
-                        "strain": "case196",
-                        "yvalue": 15
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.00027350149327929024,
-                          "date": "2018-10-12",
-                          "div": 0.009198378238757117,
-                          "num_date": 2018.7778377540956,
-                          "num_date_confidence": [
-                            2018.7321318124848,
-                            2018.804673071732
-                          ]
-                        },
-                        "branch_length": 0.0002735,
-                        "children": [
-                          {
-                            "aa_muts": {},
-                            "attr": {
-                              "clock_length": 0.0005579290741284102,
-                              "date": "2018-11-12",
-                              "div": 0.009525376162654583,
-                              "location": "locA",
-                              "num_date": 2018.8624229979466,
-                              "num_date_confidence": [
-                                2018.8624229979466,
-                                2018.8624229979466
-                              ],
-                              "raw_date": "2018-11-11"
-                            },
-                            "branch_length": 0.00055793,
-                            "clade": 14,
-                            "muts": [
-                              "G405A"
-                            ],
-                            "strain": "case145",
-                            "yvalue": 14
-                          },
-                          {
-                            "aa_muts": {},
-                            "attr": {
-                              "clock_length": 0.00020684708840296487,
-                              "date": "2018-10-23",
-                              "div": 0.009198378238757117,
-                              "num_date": 2018.8091969576642,
-                              "num_date_confidence": [
-                                2018.7661446279026,
-                                2018.8104038329911
-                              ]
-                            },
-                            "branch_length": 0.00020685,
-                            "children": [
-                              {
-                                "aa_muts": {
-                                  "VP35": [
-                                    "E157G"
-                                  ]
-                                },
-                                "attr": {
-                                  "clock_length": 0.00036914100506718676,
-                                  "date": "2018-11-12",
-                                  "div": 0.009525358098864053,
-                                  "location": "locA",
-                                  "num_date": 2018.8651608487337,
-                                  "num_date_confidence": [
-                                    2018.8651608487337,
-                                    2018.8651608487337
-                                  ],
-                                  "raw_date": "2018-11-12"
-                                },
-                                "branch_length": 0.00036914,
-                                "clade": 15,
-                                "muts": [
-                                  "A2969G"
-                                ],
-                                "strain": "case123",
-                                "yvalue": 13
-                              },
-                              {
-                                "aa_muts": {},
-                                "attr": {
-                                  "clock_length": 7.960618224859975e-06,
-                                  "date": "2018-10-24",
-                                  "div": 0.009198378238757117,
-                                  "location": "locA",
-                                  "num_date": 2018.8104038329911,
-                                  "num_date_confidence": [
-                                    2018.8104038329911,
-                                    2018.8104038329911
-                                  ],
-                                  "raw_date": "2018-10-23"
-                                },
-                                "branch_length": 7.96e-06,
-                                "clade": 16,
-                                "muts": [],
-                                "strain": "case67",
-                                "yvalue": 12
-                              }
-                            ],
-                            "clade": 17,
-                            "muts": [],
-                            "strain": "NODE_0000025",
-                            "yvalue": 12.5
-                          }
-                        ],
-                        "clade": 18,
-                        "muts": [],
-                        "strain": "NODE_0000024",
-                        "yvalue": 13.25
-                      }
-                    ],
-                    "clade": 19,
+                    "branch_length": 0.00015195,
+                    "clade": 3,
                     "muts": [],
-                    "strain": "NODE_0000023",
-                    "yvalue": 14.125
+                    "strain": "PHR_33",
+                    "yvalue": 42
                   }
                 ],
-                "clade": 20,
-                "muts": [
-                  "T630C",
-                  "T1098A"
+                "clade": 4,
+                "muts": [],
+                "strain": "NODE_0000044",
+                "yvalue": 42.5
+              }
+            ],
+            "clade": 5,
+            "muts": [
+              "G1646C",
+              "A2768C"
+            ],
+            "strain": "NODE_0000025",
+            "yvalue": 43.25
+          },
+          {
+            "aa_muts": {},
+            "attr": {
+              "clock_length": 0.00032890750786523926,
+              "date": "2018-08-25",
+              "div": 0.007554708448231952,
+              "num_date": 2018.648682927656,
+              "num_date_confidence": [
+                2018.609489101554,
+                2018.663596582719
+              ]
+            },
+            "branch_length": 0.00032891,
+            "children": [
+              {
+                "aa_muts": {
+                  "GP": [
+                    "N126K"
+                  ],
+                  "VP24": [
+                    "C141S"
+                  ],
+                  "VP35": [
+                    "E157G"
+                  ]
+                },
+                "attr": {
+                  "clock_length": 0.0007016617180086891,
+                  "date": "2018-09-28",
+                  "div": 0.009190806859368808,
+                  "num_date": 2018.7404447315182,
+                  "num_date_confidence": [
+                    2018.7086218160364,
+                    2018.7464012217206
+                  ]
+                },
+                "branch_length": 0.00070166,
+                "children": [
+                  {
+                    "aa_muts": {},
+                    "attr": {
+                      "clock_length": 5.343820765911934e-05,
+                      "date": "2018-10-01",
+                      "div": 0.009517757276384202,
+                      "location": "Location_A",
+                      "num_date": 2018.7474332648871,
+                      "num_date_confidence": [
+                        2018.7474332648871,
+                        2018.7474332648871
+                      ],
+                      "raw_date": "2018-09-30"
+                    },
+                    "branch_length": 5.344e-05,
+                    "clade": 6,
+                    "muts": [
+                      "G858T"
+                    ],
+                    "strain": "PHR_9",
+                    "yvalue": 41
+                  },
+                  {
+                    "aa_muts": {},
+                    "attr": {
+                      "clock_length": 0.0003674651239943087,
+                      "date": "2018-10-16",
+                      "div": 0.009190806859368808,
+                      "location": "Location_A",
+                      "num_date": 2018.7885010266941,
+                      "num_date_confidence": [
+                        2018.7885010266941,
+                        2018.7885010266941
+                      ],
+                      "raw_date": "2018-10-15"
+                    },
+                    "branch_length": 0.00036747,
+                    "clade": 7,
+                    "muts": [],
+                    "strain": "PHR_43",
+                    "yvalue": 40
+                  }
                 ],
-                "strain": "NODE_0000005",
-                "yvalue": 16.3125
+                "clade": 8,
+                "muts": [
+                  "C378G",
+                  "T942C",
+                  "T1920A",
+                  "A2969G",
+                  "G3002A"
+                ],
+                "strain": "NODE_0000016",
+                "yvalue": 40.5
               },
               {
                 "aa_muts": {
@@ -743,33 +448,33 @@
                   ]
                 },
                 "attr": {
-                  "clock_length": 0.00024714835019082814,
-                  "date": "2018-08-12",
-                  "div": 0.008871153184595311,
-                  "num_date": 2018.6123595883234,
+                  "clock_length": 9.979954493912488e-05,
+                  "date": "2018-08-30",
+                  "div": 0.00788157900734642,
+                  "num_date": 2018.6617344965719,
                   "num_date_confidence": [
-                    2018.571188528778,
-                    2018.6490120052624
+                    2018.6452489248577,
+                    2018.6936002685993
                   ]
                 },
-                "branch_length": 0.00024715,
+                "branch_length": 9.98e-05,
                 "children": [
                   {
                     "aa_muts": {},
                     "attr": {
-                      "clock_length": 0.0014327242250511212,
-                      "date": "2018-10-31",
-                      "div": 0.011162247846540579,
-                      "location": "locA",
-                      "num_date": 2018.829568788501,
+                      "clock_length": 0.0014299001076890495,
+                      "date": "2018-11-07",
+                      "div": 0.01017195194944138,
+                      "location": "Location_A",
+                      "num_date": 2018.848733744011,
                       "num_date_confidence": [
-                        2018.829568788501,
-                        2018.829568788501
+                        2018.848733744011,
+                        2018.848733744011
                       ],
-                      "raw_date": "2018-10-30"
+                      "raw_date": "2018-11-06"
                     },
-                    "branch_length": 0.00143272,
-                    "clade": 21,
+                    "branch_length": 0.0014299,
+                    "clade": 9,
                     "muts": [
                       "C15T",
                       "A78G",
@@ -779,273 +484,288 @@
                       "G930A",
                       "T1101C"
                     ],
-                    "strain": "case142",
-                    "yvalue": 11
-                  },
-                  {
-                    "aa_muts": {
-                      "GP": [
-                        "E43K"
-                      ],
-                      "L": [
-                        "V61M"
-                      ]
-                    },
-                    "attr": {
-                      "clock_length": 0.0007484872328913546,
-                      "date": "2018-09-23",
-                      "div": 0.010507142508472046,
-                      "num_date": 2018.7258345406951,
-                      "num_date_confidence": [
-                        2018.6861607520334,
-                        2018.76113812063
-                      ]
-                    },
-                    "branch_length": 0.00074849,
-                    "children": [
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0005758828761063187,
-                          "date": "2018-10-24",
-                          "div": 0.011161181494891589,
-                          "location": "locA",
-                          "num_date": 2018.8131416837782,
-                          "num_date_confidence": [
-                            2018.8131416837782,
-                            2018.8131416837782
-                          ],
-                          "raw_date": "2018-10-24"
-                        },
-                        "branch_length": 0.00057588,
-                        "clade": 22,
-                        "muts": [
-                          "A273G",
-                          "A3056G"
-                        ],
-                        "strain": "case121",
-                        "yvalue": 10
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.00023757612631220178,
-                          "date": "2018-10-06",
-                          "div": 0.01083413246719085,
-                          "num_date": 2018.7618524424486,
-                          "num_date_confidence": [
-                            2018.7310377532904,
-                            2018.7816010092104
-                          ]
-                        },
-                        "branch_length": 0.00023758,
-                        "children": [
-                          {
-                            "aa_muts": {},
-                            "attr": {
-                              "clock_length": 0.00015771655637220364,
-                              "date": "2018-10-14",
-                              "div": 0.011161140214661308,
-                              "location": "locA",
-                              "num_date": 2018.7857631759068,
-                              "num_date_confidence": [
-                                2018.7857631759068,
-                                2018.7857631759068
-                              ],
-                              "raw_date": "2018-10-14"
-                            },
-                            "branch_length": 0.00015772,
-                            "clade": 23,
-                            "muts": [
-                              "G33A"
-                            ],
-                            "strain": "case49",
-                            "yvalue": 9
-                          },
-                          {
-                            "aa_muts": {},
-                            "attr": {
-                              "clock_length": 0.0003586916210750993,
-                              "date": "2018-10-26",
-                              "div": 0.011161130145325798,
-                              "num_date": 2018.8162321470434,
-                              "num_date_confidence": [
-                                2018.7828177463882,
-                                2018.8416342968876
-                              ]
-                            },
-                            "branch_length": 0.00035869,
-                            "children": [
-                              {
-                                "aa_muts": {
-                                  "VP35": [
-                                    "R103H"
-                                  ]
-                                },
-                                "attr": {
-                                  "clock_length": 0.0004672086509565337,
-                                  "date": "2018-11-20",
-                                  "div": 0.011488132432099165,
-                                  "location": "locA",
-                                  "num_date": 2018.8870636550307,
-                                  "num_date_confidence": [
-                                    2018.8870636550307,
-                                    2018.8870636550307
-                                  ],
-                                  "raw_date": "2018-11-20"
-                                },
-                                "branch_length": 0.00046721,
-                                "clade": 24,
-                                "muts": [
-                                  "G2807A"
-                                ],
-                                "strain": "case370_new",
-                                "yvalue": 8
-                              },
-                              {
-                                "aa_muts": {},
-                                "attr": {
-                                  "clock_length": 0.000322736496219603,
-                                  "date": "2018-11-12",
-                                  "div": 0.011161130145325798,
-                                  "location": "locA",
-                                  "num_date": 2018.8651608487337,
-                                  "num_date_confidence": [
-                                    2018.8651608487337,
-                                    2018.8651608487337
-                                  ],
-                                  "raw_date": "2018-11-12"
-                                },
-                                "branch_length": 0.00032274,
-                                "clade": 25,
-                                "muts": [],
-                                "strain": "case155",
-                                "yvalue": 7
-                              },
-                              {
-                                "aa_muts": {
-                                  "VP30": [
-                                    "*165L"
-                                  ]
-                                },
-                                "attr": {
-                                  "clock_length": 0.0003407955155613444,
-                                  "date": "2018-11-13",
-                                  "div": 0.011488177888056166,
-                                  "location": "locA",
-                                  "num_date": 2018.8678986995208,
-                                  "num_date_confidence": [
-                                    2018.8678986995208,
-                                    2018.8678986995208
-                                  ],
-                                  "raw_date": "2018-11-13"
-                                },
-                                "branch_length": 0.0003408,
-                                "clade": 26,
-                                "muts": [
-                                  "A1493T"
-                                ],
-                                "strain": "case149",
-                                "yvalue": 6
-                              }
-                            ],
-                            "clade": 27,
-                            "muts": [
-                              "C261T"
-                            ],
-                            "strain": "NODE_0000020",
-                            "yvalue": 7.0
-                          }
-                        ],
-                        "clade": 28,
-                        "muts": [
-                          "G713A"
-                        ],
-                        "strain": "NODE_0000019",
-                        "yvalue": 8.0
-                      }
-                    ],
-                    "clade": 29,
-                    "muts": [
-                      "G127A",
-                      "G580A",
-                      "A894G",
-                      "A1308G",
-                      "G1401A"
-                    ],
-                    "strain": "NODE_0000018",
-                    "yvalue": 9.0
+                    "strain": "PHR_60",
+                    "yvalue": 39
                   },
                   {
                     "aa_muts": {},
                     "attr": {
-                      "clock_length": 0.0001289247719791814,
-                      "date": "2018-08-19",
-                      "div": 0.008871153184595311,
-                      "num_date": 2018.631905322328,
+                      "clock_length": 0.0003563642500631042,
+                      "date": "2018-09-16",
+                      "div": 0.00853541400212739,
+                      "num_date": 2018.7083390434334,
                       "num_date_confidence": [
-                        2018.592252302868,
-                        2018.6802462746753
+                        2018.6805942176481,
+                        2018.7400609583779
                       ]
                     },
-                    "branch_length": 0.00012892,
+                    "branch_length": 0.00035636,
+                    "children": [
+                      {
+                        "aa_muts": {},
+                        "attr": {
+                          "clock_length": 0.00038267664168818065,
+                          "date": "2018-10-05",
+                          "div": 0.008862284505765776,
+                          "location": "Location_A",
+                          "num_date": 2018.7583846680357,
+                          "num_date_confidence": [
+                            2018.7583846680357,
+                            2018.7583846680357
+                          ],
+                          "raw_date": "2018-10-04"
+                        },
+                        "branch_length": 0.00038268,
+                        "clade": 10,
+                        "muts": [
+                          "G1254A"
+                        ],
+                        "strain": "PHR_25",
+                        "yvalue": 38
+                      },
+                      {
+                        "aa_muts": {
+                          "GP": [
+                            "E43K"
+                          ],
+                          "L": [
+                            "V61M"
+                          ]
+                        },
+                        "attr": {
+                          "clock_length": 0.00038753678972940574,
+                          "date": "2018-10-05",
+                          "div": 0.009516365425485812,
+                          "num_date": 2018.7590202676984,
+                          "num_date_confidence": [
+                            2018.7333342949148,
+                            2018.787823463863
+                          ]
+                        },
+                        "branch_length": 0.00038754,
+                        "children": [
+                          {
+                            "aa_muts": {},
+                            "attr": {
+                              "clock_length": 0.0005603883013617683,
+                              "date": "2018-11-01",
+                              "div": 0.010170200396569715,
+                              "location": "Location_A",
+                              "num_date": 2018.8323066392882,
+                              "num_date_confidence": [
+                                2018.8323066392882,
+                                2018.8323066392882
+                              ],
+                              "raw_date": "2018-10-31"
+                            },
+                            "branch_length": 0.00056039,
+                            "clade": 11,
+                            "muts": [
+                              "A273G",
+                              "A3056G"
+                            ],
+                            "strain": "PHR_51",
+                            "yvalue": 37
+                          },
+                          {
+                            "aa_muts": {},
+                            "attr": {
+                              "clock_length": 0.0002568441896590836,
+                              "date": "2018-10-17",
+                              "div": 0.009843255343488675,
+                              "num_date": 2018.7926097960278,
+                              "num_date_confidence": [
+                                2018.7628489182337,
+                                2018.8050811687888
+                              ]
+                            },
+                            "branch_length": 0.00025684,
+                            "children": [
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 0.00011512796190226641,
+                                  "date": "2018-10-23",
+                                  "div": 0.010170164302876698,
+                                  "location": "Location_A",
+                                  "num_date": 2018.807665982204,
+                                  "num_date_confidence": [
+                                    2018.807665982204,
+                                    2018.807665982204
+                                  ],
+                                  "raw_date": "2018-10-22"
+                                },
+                                "branch_length": 0.00011513,
+                                "clade": 12,
+                                "muts": [
+                                  "G33A"
+                                ],
+                                "strain": "PHR_46",
+                                "yvalue": 36
+                              },
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 0.0005169496419238791,
+                                  "date": "2018-11-11",
+                                  "div": 0.010170150953904042,
+                                  "num_date": 2018.8602153535655,
+                                  "num_date_confidence": [
+                                    2018.831525169565,
+                                    2018.881761980343
+                                  ]
+                                },
+                                "branch_length": 0.00051695,
+                                "children": [
+                                  {
+                                    "aa_muts": {
+                                      "VP35": [
+                                        "R103H"
+                                      ]
+                                    },
+                                    "attr": {
+                                      "clock_length": 0.0003727780469387533,
+                                      "date": "2018-11-29",
+                                      "div": 0.010497049977352095,
+                                      "location": "Location_A",
+                                      "num_date": 2018.908966461328,
+                                      "num_date_confidence": [
+                                        2018.908966461328,
+                                        2018.908966461328
+                                      ],
+                                      "raw_date": "2018-11-28"
+                                    },
+                                    "branch_length": 0.00037278,
+                                    "clade": 13,
+                                    "muts": [
+                                      "G2807A"
+                                    ],
+                                    "strain": "PHR_94",
+                                    "yvalue": 35
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00018436189713659642,
+                                      "date": "2018-11-19",
+                                      "div": 0.010170150953904042,
+                                      "location": "Location_A",
+                                      "num_date": 2018.8843258042436,
+                                      "num_date_confidence": [
+                                        2018.8843258042436,
+                                        2018.8843258042436
+                                      ],
+                                      "raw_date": "2018-11-19"
+                                    },
+                                    "branch_length": 0.00018436,
+                                    "clade": 14,
+                                    "muts": [],
+                                    "strain": "PHR_78",
+                                    "yvalue": 34
+                                  },
+                                  {
+                                    "aa_muts": {
+                                      "VP30": [
+                                        "*165L"
+                                      ]
+                                    },
+                                    "attr": {
+                                      "clock_length": 0.0002262321526487664,
+                                      "date": "2018-11-22",
+                                      "div": 0.01049709035369251,
+                                      "location": "Location_A",
+                                      "num_date": 2018.889801505818,
+                                      "num_date_confidence": [
+                                        2018.889801505818,
+                                        2018.889801505818
+                                      ],
+                                      "raw_date": "2018-11-21"
+                                    },
+                                    "branch_length": 0.00022623,
+                                    "clade": 15,
+                                    "muts": [
+                                      "A1493T"
+                                    ],
+                                    "strain": "PHR_83",
+                                    "yvalue": 33
+                                  }
+                                ],
+                                "clade": 16,
+                                "muts": [
+                                  "C261T"
+                                ],
+                                "strain": "NODE_0000031",
+                                "yvalue": 34.0
+                              }
+                            ],
+                            "clade": 17,
+                            "muts": [
+                              "G713A"
+                            ],
+                            "strain": "NODE_0000030",
+                            "yvalue": 35.0
+                          }
+                        ],
+                        "clade": 18,
+                        "muts": [
+                          "G127A",
+                          "G580A",
+                          "A894G"
+                        ],
+                        "strain": "NODE_0000029",
+                        "yvalue": 36.0
+                      }
+                    ],
+                    "clade": 19,
+                    "muts": [
+                      "A1308G",
+                      "G1401A"
+                    ],
+                    "strain": "NODE_0000028",
+                    "yvalue": 37.0
+                  },
+                  {
+                    "aa_muts": {},
+                    "attr": {
+                      "clock_length": 0.00017759074065318856,
+                      "date": "2018-09-08",
+                      "div": 0.00788157900734642,
+                      "num_date": 2018.684959430031,
+                      "num_date_confidence": [
+                        2018.6575553122793,
+                        2018.7142491841507
+                      ]
+                    },
+                    "branch_length": 0.00017759,
                     "children": [
                       {
                         "aa_muts": {
                           "L": [
                             "Q56H"
                           ],
-                          "VP24": [
-                            "P20S"
-                          ],
                           "VP35": [
                             "K101R"
                           ]
                         },
                         "attr": {
-                          "clock_length": 0.001141268278991768,
-                          "date": "2018-10-21",
-                          "div": 0.010179895784930148,
-                          "location": "locA",
-                          "num_date": 2018.8049281314168,
+                          "clock_length": 0.000624255534365482,
+                          "date": "2018-10-08",
+                          "div": 0.008535494655198017,
+                          "num_date": 2018.766598220397,
                           "num_date_confidence": [
-                            2018.8049281314168,
-                            2018.8049281314168
-                          ],
-                          "raw_date": "2018-10-21"
-                        },
-                        "branch_length": 0.00114127,
-                        "clade": 30,
-                        "muts": [
-                          "G21A",
-                          "A567T",
-                          "C1557T",
-                          "A2801G"
-                        ],
-                        "strain": "case77",
-                        "yvalue": 5
-                      },
-                      {
-                        "aa_muts": {},
-                        "attr": {
-                          "clock_length": 0.0003613856000676983,
-                          "date": "2018-09-08",
-                          "div": 0.009198107365141825,
-                          "num_date": 2018.686693449571,
-                          "num_date_confidence": [
-                            2018.6380445395132,
-                            2018.726572090714
+                            2018.72712912463,
+                            2018.766598220397
                           ]
                         },
-                        "branch_length": 0.00036139,
+                        "branch_length": 0.00062426,
                         "children": [
                           {
                             "aa_muts": {},
                             "attr": {
-                              "clock_length": 0.0005270564081351907,
+                              "clock_length": 0.0,
                               "date": "2018-10-08",
-                              "div": 0.009525051379722529,
-                              "location": "locA",
+                              "div": 0.008535494655198017,
+                              "location": "Location_A",
                               "num_date": 2018.766598220397,
                               "num_date_confidence": [
                                 2018.766598220397,
@@ -1053,191 +773,1283 @@
                               ],
                               "raw_date": "2018-10-07"
                             },
-                            "branch_length": 0.00052706,
-                            "clade": 31,
+                            "branch_length": 0.0,
+                            "clade": 20,
+                            "muts": [],
+                            "strain": "PHR_28",
+                            "yvalue": 32
+                          },
+                          {
+                            "aa_muts": {
+                              "VP24": [
+                                "P20S"
+                              ]
+                            },
+                            "attr": {
+                              "clock_length": 0.00043963768286822203,
+                              "date": "2018-10-28",
+                              "div": 0.00918928574385092,
+                              "location": "Location_A",
+                              "num_date": 2018.8240930869267,
+                              "num_date_confidence": [
+                                2018.8240930869267,
+                                2018.8240930869267
+                              ],
+                              "raw_date": "2018-10-28"
+                            },
+                            "branch_length": 0.00043964,
+                            "clade": 21,
                             "muts": [
-                              "C246T"
+                              "G21A",
+                              "C1557T"
                             ],
-                            "strain": "case45",
-                            "yvalue": 4
+                            "strain": "PHR_47",
+                            "yvalue": 31
+                          }
+                        ],
+                        "clade": 22,
+                        "muts": [
+                          "A567T",
+                          "A2801G"
+                        ],
+                        "strain": "NODE_0000036",
+                        "yvalue": 31.5
+                      },
+                      {
+                        "aa_muts": {},
+                        "attr": {
+                          "clock_length": 0.00015845932001076627,
+                          "date": "2018-09-15",
+                          "div": 0.00788157900734642,
+                          "num_date": 2018.7056823976231,
+                          "num_date_confidence": [
+                            2018.6778107474206,
+                            2018.7341988069381
+                          ]
+                        },
+                        "branch_length": 0.00015846,
+                        "children": [
+                          {
+                            "aa_muts": {
+                              "VP24": [
+                                "S164P"
+                              ]
+                            },
+                            "attr": {
+                              "clock_length": 0.0005286015976203626,
+                              "date": "2018-10-10",
+                              "div": 0.008208445762307361,
+                              "location": "Location_A",
+                              "num_date": 2018.7748117727583,
+                              "num_date_confidence": [
+                                2018.7748117727583,
+                                2018.7748117727583
+                              ],
+                              "raw_date": "2018-10-10"
+                            },
+                            "branch_length": 0.0005286,
+                            "clade": 23,
+                            "muts": [
+                              "T1989C"
+                            ],
+                            "strain": "PHR_36",
+                            "yvalue": 30
                           },
                           {
                             "aa_muts": {},
                             "attr": {
-                              "clock_length": 0.00024087911300013165,
-                              "date": "2018-09-22",
-                              "div": 0.009525061557801008,
-                              "num_date": 2018.7232121030283,
+                              "clock_length": 0.0002856986041637746,
+                              "date": "2018-09-29",
+                              "div": 0.008208430236430383,
+                              "num_date": 2018.7430454439548,
                               "num_date_confidence": [
-                                2018.6785720841535,
-                                2018.7512430845072
+                                2018.7116442903925,
+                                2018.7576607972333
                               ]
                             },
-                            "branch_length": 0.00024088,
+                            "branch_length": 0.0002857,
                             "children": [
                               {
-                                "aa_muts": {
-                                  "NP": [
-                                    "*18W"
-                                  ],
-                                  "VP24": [
-                                    "Q153*"
-                                  ],
-                                  "VP30": [
-                                    "Q77H"
-                                  ],
-                                  "VP35": [
-                                    "I107T"
-                                  ]
-                                },
+                                "aa_muts": {},
                                 "attr": {
-                                  "clock_length": 0.0009001839527677645,
-                                  "date": "2018-11-11",
-                                  "div": 0.011161405677403724,
-                                  "location": "locA",
-                                  "num_date": 2018.8596851471596,
+                                  "clock_length": 0.00032664350447918927,
+                                  "date": "2018-10-14",
+                                  "div": 0.008535268171567,
+                                  "location": "Location_A",
+                                  "num_date": 2018.7857631759068,
                                   "num_date_confidence": [
-                                    2018.8596851471596,
-                                    2018.8596851471596
+                                    2018.7857631759068,
+                                    2018.7857631759068
                                   ],
-                                  "raw_date": "2018-11-10"
+                                  "raw_date": "2018-10-14"
                                 },
-                                "branch_length": 0.00090018,
-                                "clade": 32,
+                                "branch_length": 0.00032664,
+                                "clade": 24,
                                 "muts": [
-                                  "G879A",
-                                  "A903G",
-                                  "G1230T",
-                                  "C1956T",
-                                  "T2819C"
+                                  "C246T"
                                 ],
-                                "strain": "case98",
-                                "yvalue": 3
+                                "strain": "PHR_42",
+                                "yvalue": 29
                               },
                               {
-                                "aa_muts": {
-                                  "VP24": [
-                                    "Q169*"
-                                  ]
-                                },
+                                "aa_muts": {},
                                 "attr": {
-                                  "clock_length": 0.00025533412928656135,
-                                  "date": "2018-10-06",
-                                  "div": 0.00985202339795743,
-                                  "num_date": 2018.761922219763,
+                                  "clock_length": 0.00018009761019094112,
+                                  "date": "2018-10-08",
+                                  "div": 0.008208430236430383,
+                                  "num_date": 2018.766598220397,
                                   "num_date_confidence": [
-                                    2018.7310741439508,
-                                    2018.7638603696098
+                                    2018.7414696831597,
+                                    2018.766598220397
                                   ]
                                 },
-                                "branch_length": 0.00025533,
+                                "branch_length": 0.0001801,
                                 "children": [
                                   {
                                     "aa_muts": {},
                                     "attr": {
-                                      "clock_length": 1.2784146505256553e-05,
-                                      "date": "2018-10-06",
-                                      "div": 0.00985202339795743,
-                                      "location": "locA",
-                                      "num_date": 2018.7638603696098,
+                                      "clock_length": 0.0,
+                                      "date": "2018-10-08",
+                                      "div": 0.008208430236430383,
+                                      "location": "Location_A",
+                                      "num_date": 2018.766598220397,
                                       "num_date_confidence": [
-                                        2018.7638603696098,
-                                        2018.7638603696098
+                                        2018.766598220397,
+                                        2018.766598220397
                                       ],
-                                      "raw_date": "2018-10-06"
+                                      "raw_date": "2018-10-07"
                                     },
-                                    "branch_length": 1.278e-05,
-                                    "clade": 33,
+                                    "branch_length": 0.0,
+                                    "clade": 25,
                                     "muts": [],
-                                    "strain": "case44",
-                                    "yvalue": 2
+                                    "strain": "PHR_30",
+                                    "yvalue": 28
                                   },
                                   {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.0,
+                                      "date": "2018-10-08",
+                                      "div": 0.008208430236430383,
+                                      "location": "Location_A",
+                                      "num_date": 2018.766598220397,
+                                      "num_date_confidence": [
+                                        2018.766598220397,
+                                        2018.766598220397
+                                      ],
+                                      "raw_date": "2018-10-07"
+                                    },
+                                    "branch_length": 0.0,
+                                    "clade": 26,
+                                    "muts": [],
+                                    "strain": "PHR_27",
+                                    "yvalue": 27
+                                  }
+                                ],
+                                "clade": 27,
+                                "muts": [],
+                                "strain": "NODE_0000047",
+                                "yvalue": 27.5
+                              },
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 0.00012134647958737723,
+                                  "date": "2018-10-05",
+                                  "div": 0.008535281482263936,
+                                  "num_date": 2018.7589148744416,
+                                  "num_date_confidence": [
+                                    2018.7398602245537,
+                                    2018.7744573083921
+                                  ]
+                                },
+                                "branch_length": 0.00012135,
+                                "children": [
+                                  {
                                     "aa_muts": {
-                                      "L": [
-                                        "*37Y"
+                                      "NP": [
+                                        "*18W"
+                                      ],
+                                      "VP24": [
+                                        "Q153*"
+                                      ],
+                                      "VP30": [
+                                        "Q77H"
                                       ],
                                       "VP35": [
-                                        "L106P"
+                                        "I107T"
                                       ]
                                     },
                                     "attr": {
-                                      "clock_length": 0.0005545547267694967,
-                                      "date": "2018-11-05",
-                                      "div": 0.010506203394939552,
-                                      "location": "locA",
-                                      "num_date": 2018.8459958932237,
+                                      "clock_length": 0.0009380264963417468,
+                                      "date": "2018-11-19",
+                                      "div": 0.010171093975203086,
+                                      "location": "Location_A",
+                                      "num_date": 2018.8815879534566,
                                       "num_date_confidence": [
-                                        2018.8459958932237,
-                                        2018.8459958932237
+                                        2018.8815879534566,
+                                        2018.8815879534566
                                       ],
-                                      "raw_date": "2018-11-05"
+                                      "raw_date": "2018-11-18"
                                     },
-                                    "branch_length": 0.00055455,
-                                    "clade": 34,
+                                    "branch_length": 0.00093803,
+                                    "clade": 28,
                                     "muts": [
-                                      "A510C",
-                                      "T2816C"
+                                      "G879A",
+                                      "A903G",
+                                      "G1230T",
+                                      "C1956T",
+                                      "T2819C"
                                     ],
-                                    "strain": "case126",
-                                    "yvalue": 1
+                                    "strain": "PHR_75",
+                                    "yvalue": 26
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00018436189713659642,
+                                      "date": "2018-10-13",
+                                      "div": 0.008535281482263936,
+                                      "location": "Location_A",
+                                      "num_date": 2018.7830253251198,
+                                      "num_date_confidence": [
+                                        2018.7830253251198,
+                                        2018.7830253251198
+                                      ],
+                                      "raw_date": "2018-10-13"
+                                    },
+                                    "branch_length": 0.00018436,
+                                    "clade": 29,
+                                    "muts": [],
+                                    "strain": "PHR_39",
+                                    "yvalue": 25
+                                  },
+                                  {
+                                    "aa_muts": {
+                                      "VP24": [
+                                        "Q169*"
+                                      ]
+                                    },
+                                    "attr": {
+                                      "clock_length": 0.00020529702489181204,
+                                      "date": "2018-10-14",
+                                      "div": 0.008862138703688233,
+                                      "num_date": 2018.7857631759068,
+                                      "num_date_confidence": [
+                                        2018.7638577805146,
+                                        2018.7857631759068
+                                      ]
+                                    },
+                                    "branch_length": 0.0002053,
+                                    "children": [
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.0,
+                                          "date": "2018-10-14",
+                                          "div": 0.008862138703688233,
+                                          "location": "Location_A",
+                                          "num_date": 2018.7857631759068,
+                                          "num_date_confidence": [
+                                            2018.7857631759068,
+                                            2018.7857631759068
+                                          ],
+                                          "raw_date": "2018-10-14"
+                                        },
+                                        "branch_length": 0.0,
+                                        "clade": 30,
+                                        "muts": [],
+                                        "strain": "PHR_40",
+                                        "yvalue": 24
+                                      },
+                                      {
+                                        "aa_muts": {
+                                          "L": [
+                                            "*37Y"
+                                          ],
+                                          "VP35": [
+                                            "L106P"
+                                          ]
+                                        },
+                                        "attr": {
+                                          "clock_length": 0.0006071187049151634,
+                                          "date": "2018-11-12",
+                                          "div": 0.00951612368674011,
+                                          "location": "Location_A",
+                                          "num_date": 2018.8651608487337,
+                                          "num_date_confidence": [
+                                            2018.8651608487337,
+                                            2018.8651608487337
+                                          ],
+                                          "raw_date": "2018-11-12"
+                                        },
+                                        "branch_length": 0.00060712,
+                                        "clade": 31,
+                                        "muts": [
+                                          "A510C",
+                                          "T2816C"
+                                        ],
+                                        "strain": "PHR_67",
+                                        "yvalue": 23
+                                      }
+                                    ],
+                                    "clade": 32,
+                                    "muts": [
+                                      "C2004T"
+                                    ],
+                                    "strain": "NODE_0000042",
+                                    "yvalue": 23.5
                                   }
                                 ],
-                                "clade": 35,
+                                "clade": 33,
                                 "muts": [
-                                  "C2004T"
+                                  "G1317A"
                                 ],
-                                "strain": "NODE_0000017",
-                                "yvalue": 1.5
+                                "strain": "NODE_0000040",
+                                "yvalue": 24.75
                               }
                             ],
-                            "clade": 36,
+                            "clade": 34,
                             "muts": [
-                              "G1317A"
+                              "A1272G"
                             ],
-                            "strain": "NODE_0000016",
-                            "yvalue": 2.25
+                            "strain": "NODE_0000037",
+                            "yvalue": 26.875
                           }
                         ],
-                        "clade": 37,
-                        "muts": [
-                          "A1272G"
-                        ],
-                        "strain": "NODE_0000015",
-                        "yvalue": 3.125
+                        "clade": 35,
+                        "muts": [],
+                        "strain": "NODE_0000046",
+                        "yvalue": 28.4375
                       }
                     ],
-                    "clade": 38,
+                    "clade": 36,
                     "muts": [],
-                    "strain": "NODE_0000026",
-                    "yvalue": 4.0625
+                    "strain": "NODE_0000045",
+                    "yvalue": 29.96875
                   }
                 ],
-                "clade": 39,
+                "clade": 37,
                 "muts": [
                   "A1764G"
                 ],
-                "strain": "NODE_0000012",
-                "yvalue": 7.53125
+                "strain": "NODE_0000027",
+                "yvalue": 34.484375
+              },
+              {
+                "aa_muts": {},
+                "attr": {
+                  "clock_length": 6.670496530640632e-05,
+                  "date": "2018-08-29",
+                  "div": 0.007554708448231953,
+                  "num_date": 2018.657406458933,
+                  "num_date_confidence": [
+                    2018.6307004597234,
+                    2018.6865885169684
+                  ]
+                },
+                "branch_length": 6.67e-05,
+                "children": [
+                  {
+                    "aa_muts": {},
+                    "attr": {
+                      "clock_length": 0.00030330730116676845,
+                      "date": "2018-09-12",
+                      "div": 0.007881584784083684,
+                      "num_date": 2018.6970723326233,
+                      "num_date_confidence": [
+                        2018.6674169426453,
+                        2018.7215823501872
+                      ]
+                    },
+                    "branch_length": 0.00030331,
+                    "children": [
+                      {
+                        "aa_muts": {
+                          "VP24": [
+                            "*190R"
+                          ]
+                        },
+                        "attr": {
+                          "clock_length": 0.0004269579147050649,
+                          "date": "2018-10-02",
+                          "div": 0.00820846115415264,
+                          "location": "Location_A",
+                          "num_date": 2018.7529089664613,
+                          "num_date_confidence": [
+                            2018.7529089664613,
+                            2018.7529089664613
+                          ],
+                          "raw_date": "2018-10-02"
+                        },
+                        "branch_length": 0.00042696,
+                        "clade": 38,
+                        "muts": [
+                          "T2067C"
+                        ],
+                        "strain": "PHR_20",
+                        "yvalue": 22
+                      },
+                      {
+                        "aa_muts": {
+                          "L": [
+                            "E88G"
+                          ],
+                          "VP35": [
+                            "E80G"
+                          ]
+                        },
+                        "attr": {
+                          "clock_length": 0.0007409848310402545,
+                          "date": "2018-10-17",
+                          "div": 0.009189983419565478,
+                          "location": "Location_B",
+                          "num_date": 2018.7939767282683,
+                          "num_date_confidence": [
+                            2018.7939767282683,
+                            2018.7939767282683
+                          ],
+                          "raw_date": "2018-10-17"
+                        },
+                        "branch_length": 0.00074098,
+                        "clade": 39,
+                        "muts": [
+                          "T231C",
+                          "A662G",
+                          "G1173T",
+                          "A2738G"
+                        ],
+                        "strain": "PHR_44",
+                        "yvalue": 21
+                      },
+                      {
+                        "aa_muts": {},
+                        "attr": {
+                          "clock_length": 0.00019111443157220206,
+                          "date": "2018-09-21",
+                          "div": 0.00820845105695693,
+                          "num_date": 2018.722065865169,
+                          "num_date_confidence": [
+                            2018.6990093989045,
+                            2018.7461470569153
+                          ]
+                        },
+                        "branch_length": 0.00019111,
+                        "children": [
+                          {
+                            "aa_muts": {
+                              "VP30": [
+                                "*117Y"
+                              ]
+                            },
+                            "attr": {
+                              "clock_length": 0.00021490835537764721,
+                              "date": "2018-10-02",
+                              "div": 0.008535384039210166,
+                              "location": "Location_B",
+                              "num_date": 2018.7501711156742,
+                              "num_date_confidence": [
+                                2018.7501711156742,
+                                2018.7501711156742
+                              ],
+                              "raw_date": "2018-10-01"
+                            },
+                            "branch_length": 0.00021491,
+                            "clade": 40,
+                            "muts": [
+                              "G1350T"
+                            ],
+                            "strain": "PHR_15",
+                            "yvalue": 20
+                          },
+                          {
+                            "aa_muts": {
+                              "VP30": [
+                                "Q108H"
+                              ],
+                              "VP35": [
+                                "T112M",
+                                "R165H"
+                              ]
+                            },
+                            "attr": {
+                              "clock_length": 0.0009057675713154119,
+                              "date": "2018-11-04",
+                              "div": 0.009516855473126274,
+                              "num_date": 2018.8405201916496,
+                              "num_date_confidence": [
+                                2018.7992880499187,
+                                2018.8405201916496
+                              ]
+                            },
+                            "branch_length": 0.00090577,
+                            "children": [
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 0.0,
+                                  "date": "2018-11-04",
+                                  "div": 0.009516855473126274,
+                                  "location": "Location_B",
+                                  "num_date": 2018.8405201916496,
+                                  "num_date_confidence": [
+                                    2018.8405201916496,
+                                    2018.8405201916496
+                                  ],
+                                  "raw_date": "2018-11-03"
+                                },
+                                "branch_length": 0.0,
+                                "clade": 41,
+                                "muts": [],
+                                "strain": "PHR_57",
+                                "yvalue": 19
+                              },
+                              {
+                                "aa_muts": {
+                                  "VP30": [
+                                    "H108Q"
+                                  ]
+                                },
+                                "attr": {
+                                  "clock_length": 0.0006699240881808104,
+                                  "date": "2018-12-05",
+                                  "div": 0.010170865072716568,
+                                  "location": "Location_A",
+                                  "num_date": 2018.9281314168377,
+                                  "num_date_confidence": [
+                                    2018.9281314168377,
+                                    2018.9281314168377
+                                  ],
+                                  "raw_date": "2018-12-05"
+                                },
+                                "branch_length": 0.00066992,
+                                "clade": 42,
+                                "muts": [
+                                  "C1323A",
+                                  "A1392G"
+                                ],
+                                "strain": "PHR_98",
+                                "yvalue": 18
+                              }
+                            ],
+                            "clade": 43,
+                            "muts": [
+                              "C933T",
+                              "G1323C",
+                              "C2834T",
+                              "G2993A"
+                            ],
+                            "strain": "NODE_0000022",
+                            "yvalue": 18.5
+                          }
+                        ],
+                        "clade": 44,
+                        "muts": [
+                          "C843T"
+                        ],
+                        "strain": "NODE_0000021",
+                        "yvalue": 19.25
+                      }
+                    ],
+                    "clade": 45,
+                    "muts": [
+                      "C3059T"
+                    ],
+                    "strain": "NODE_0000019",
+                    "yvalue": 20.625
+                  },
+                  {
+                    "aa_muts": {},
+                    "attr": {
+                      "clock_length": 0.00020519293276780688,
+                      "date": "2018-09-07",
+                      "div": 0.0075547084482319535,
+                      "num_date": 2018.6842411474552,
+                      "num_date_confidence": [
+                        2018.649542047832,
+                        2018.7043160745293
+                      ]
+                    },
+                    "branch_length": 0.00020519,
+                    "children": [
+                      {
+                        "aa_muts": {
+                          "VP24": [
+                            "P66S"
+                          ]
+                        },
+                        "attr": {
+                          "clock_length": 0.00042039664432620954,
+                          "date": "2018-09-28",
+                          "div": 0.008208593952846673,
+                          "location": "Location_A",
+                          "num_date": 2018.7392197125257,
+                          "num_date_confidence": [
+                            2018.7392197125257,
+                            2018.7392197125257
+                          ],
+                          "raw_date": "2018-09-27"
+                        },
+                        "branch_length": 0.0004204,
+                        "clade": 46,
+                        "muts": [
+                          "G780A",
+                          "C1695T"
+                        ],
+                        "strain": "PHR_6",
+                        "yvalue": 17
+                      },
+                      {
+                        "aa_muts": {},
+                        "attr": {
+                          "clock_length": 0.00025740543861139443,
+                          "date": "2018-09-20",
+                          "div": 0.007881594626319974,
+                          "num_date": 2018.71790407471,
+                          "num_date_confidence": [
+                            2018.6852132053173,
+                            2018.736203709145
+                          ]
+                        },
+                        "branch_length": 0.00025741,
+                        "children": [
+                          {
+                            "aa_muts": {
+                              "VP30": [
+                                "E10D"
+                              ]
+                            },
+                            "attr": {
+                              "clock_length": 0.0002257965889822008,
+                              "date": "2018-10-01",
+                              "div": 0.00820853442312215,
+                              "location": "Location_A",
+                              "num_date": 2018.7474332648871,
+                              "num_date_confidence": [
+                                2018.7474332648871,
+                                2018.7474332648871
+                              ],
+                              "raw_date": "2018-09-30"
+                            },
+                            "branch_length": 0.0002258,
+                            "clade": 47,
+                            "muts": [
+                              "A1029T"
+                            ],
+                            "strain": "PHR_11",
+                            "yvalue": 16
+                          },
+                          {
+                            "aa_muts": {},
+                            "attr": {
+                              "clock_length": 0.00019820560480548251,
+                              "date": "2018-09-29",
+                              "div": 0.008208543082501477,
+                              "num_date": 2018.7438249755742,
+                              "num_date_confidence": [
+                                2018.7228394126794,
+                                2018.7556468172484
+                              ]
+                            },
+                            "branch_length": 0.00019821,
+                            "children": [
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 9.039636744236535e-05,
+                                  "date": "2018-10-03",
+                                  "div": 0.008208543082501477,
+                                  "location": "Location_A",
+                                  "num_date": 2018.7556468172484,
+                                  "num_date_confidence": [
+                                    2018.7556468172484,
+                                    2018.7556468172484
+                                  ],
+                                  "raw_date": "2018-10-03"
+                                },
+                                "branch_length": 9.04e-05,
+                                "clade": 48,
+                                "muts": [],
+                                "strain": "PHR_22",
+                                "yvalue": 15
+                              },
+                              {
+                                "aa_muts": {
+                                  "VP24": [
+                                    "R38*",
+                                    "G91R"
+                                  ]
+                                },
+                                "attr": {
+                                  "clock_length": 0.0007124060315382392,
+                                  "date": "2018-11-02",
+                                  "div": 0.009189567464902093,
+                                  "num_date": 2018.8369918975518,
+                                  "num_date_confidence": [
+                                    2018.7909712132403,
+                                    2018.8604187849348
+                                  ]
+                                },
+                                "branch_length": 0.00071241,
+                                "children": [
+                                  {
+                                    "aa_muts": {
+                                      "VP24": [
+                                        "T3A"
+                                      ]
+                                    },
+                                    "attr": {
+                                      "clock_length": 0.00023633057388709332,
+                                      "date": "2018-11-13",
+                                      "div": 0.009516446597448042,
+                                      "location": "Location_A",
+                                      "num_date": 2018.8678986995208,
+                                      "num_date_confidence": [
+                                        2018.8678986995208,
+                                        2018.8678986995208
+                                      ],
+                                      "raw_date": "2018-11-13"
+                                    },
+                                    "branch_length": 0.00023633,
+                                    "clade": 49,
+                                    "muts": [
+                                      "A1506G"
+                                    ],
+                                    "strain": "PHR_71",
+                                    "yvalue": 14
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.0003015605465585394,
+                                      "date": "2018-11-17",
+                                      "div": 0.00951651473234685,
+                                      "num_date": 2018.8764293344473,
+                                      "num_date_confidence": [
+                                        2018.8480613141232,
+                                        2018.892539356605
+                                      ]
+                                    },
+                                    "branch_length": 0.00030156,
+                                    "children": [
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.000458148221221116,
+                                          "date": "2018-12-08",
+                                          "div": 0.009843402321426942,
+                                          "location": "Location_A",
+                                          "num_date": 2018.9363449691991,
+                                          "num_date_confidence": [
+                                            2018.9363449691991,
+                                            2018.9363449691991
+                                          ],
+                                          "raw_date": "2018-12-08"
+                                        },
+                                        "branch_length": 0.00045815,
+                                        "clade": 50,
+                                        "muts": [
+                                          "A81G"
+                                        ],
+                                        "strain": "PHR_101",
+                                        "yvalue": 13
+                                      },
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.00012318617713071082,
+                                          "date": "2018-11-23",
+                                          "div": 0.00951651473234685,
+                                          "location": "Location_A",
+                                          "num_date": 2018.892539356605,
+                                          "num_date_confidence": [
+                                            2018.892539356605,
+                                            2018.892539356605
+                                          ],
+                                          "raw_date": "2018-11-22"
+                                        },
+                                        "branch_length": 0.00012319,
+                                        "clade": 51,
+                                        "muts": [],
+                                        "strain": "PHR_89",
+                                        "yvalue": 12
+                                      }
+                                    ],
+                                    "clade": 52,
+                                    "muts": [
+                                      "T1170A"
+                                    ],
+                                    "strain": "NODE_0000012",
+                                    "yvalue": 12.5
+                                  }
+                                ],
+                                "clade": 53,
+                                "muts": [
+                                  "A345G",
+                                  "C1611T",
+                                  "G1770A"
+                                ],
+                                "strain": "NODE_0000011",
+                                "yvalue": 13.25
+                              },
+                              {
+                                "aa_muts": {},
+                                "attr": {
+                                  "clock_length": 0.00010041563394501277,
+                                  "date": "2018-10-04",
+                                  "div": 0.008208543082501477,
+                                  "num_date": 2018.7569571152796,
+                                  "num_date_confidence": [
+                                    2018.7404491759796,
+                                    2018.8047992388815
+                                  ]
+                                },
+                                "branch_length": 0.00010042,
+                                "children": [
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.0009320614825046597,
+                                      "date": "2018-11-18",
+                                      "div": 0.008862426734969491,
+                                      "location": "Location_A",
+                                      "num_date": 2018.8788501026695,
+                                      "num_date_confidence": [
+                                        2018.8788501026695,
+                                        2018.8788501026695
+                                      ],
+                                      "raw_date": "2018-11-17"
+                                    },
+                                    "branch_length": 0.00093206,
+                                    "clade": 54,
+                                    "muts": [
+                                      "C141T",
+                                      "A441G"
+                                    ],
+                                    "strain": "PHR_74",
+                                    "yvalue": 11
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00041365673714508573,
+                                      "date": "2018-10-24",
+                                      "div": 0.008208543082501477,
+                                      "num_date": 2018.8110542498475,
+                                      "num_date_confidence": [
+                                        2018.7647429034655,
+                                        2018.8251108249901
+                                      ]
+                                    },
+                                    "branch_length": 0.00041366,
+                                    "children": [
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.0005602750008700053,
+                                          "date": "2018-11-19",
+                                          "div": 0.008535451196511362,
+                                          "location": "Location_A",
+                                          "num_date": 2018.8843258042436,
+                                          "num_date_confidence": [
+                                            2018.8843258042436,
+                                            2018.8843258042436
+                                          ],
+                                          "raw_date": "2018-11-19"
+                                        },
+                                        "branch_length": 0.00056028,
+                                        "clade": 55,
+                                        "muts": [
+                                          "G405A"
+                                        ],
+                                        "strain": "PHR_79",
+                                        "yvalue": 10
+                                      },
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.0001562336649966697,
+                                          "date": "2018-10-31",
+                                          "div": 0.008208543082501477,
+                                          "num_date": 2018.8314861510844,
+                                          "num_date_confidence": [
+                                            2018.795015122468,
+                                            2018.8323066392882
+                                          ]
+                                        },
+                                        "branch_length": 0.00015623,
+                                        "children": [
+                                          {
+                                            "aa_muts": {
+                                              "VP35": [
+                                                "E157G"
+                                              ]
+                                            },
+                                            "attr": {
+                                              "clock_length": 0.0004040413358733356,
+                                              "date": "2018-11-19",
+                                              "div": 0.008535432017937923,
+                                              "location": "Location_A",
+                                              "num_date": 2018.8843258042436,
+                                              "num_date_confidence": [
+                                                2018.8843258042436,
+                                                2018.8843258042436
+                                              ],
+                                              "raw_date": "2018-11-19"
+                                            },
+                                            "branch_length": 0.00040404,
+                                            "clade": 56,
+                                            "muts": [
+                                              "A2969G"
+                                            ],
+                                            "strain": "PHR_77",
+                                            "yvalue": 9
+                                          },
+                                          {
+                                            "aa_muts": {},
+                                            "attr": {
+                                              "clock_length": 6.273908515544804e-06,
+                                              "date": "2018-11-01",
+                                              "div": 0.008208543082501477,
+                                              "location": "Location_A",
+                                              "num_date": 2018.8323066392882,
+                                              "num_date_confidence": [
+                                                2018.8323066392882,
+                                                2018.8323066392882
+                                              ],
+                                              "raw_date": "2018-10-31"
+                                            },
+                                            "branch_length": 6.27e-06,
+                                            "clade": 57,
+                                            "muts": [],
+                                            "strain": "PHR_54",
+                                            "yvalue": 8
+                                          }
+                                        ],
+                                        "clade": 58,
+                                        "muts": [],
+                                        "strain": "NODE_0000052",
+                                        "yvalue": 8.5
+                                      }
+                                    ],
+                                    "clade": 59,
+                                    "muts": [],
+                                    "strain": "NODE_0000051",
+                                    "yvalue": 9.25
+                                  }
+                                ],
+                                "clade": 60,
+                                "muts": [],
+                                "strain": "NODE_0000050",
+                                "yvalue": 10.125
+                              },
+                              {
+                                "aa_muts": {
+                                  "VP35": [
+                                    "L152P"
+                                  ],
+                                  "VP40": [
+                                    "P35S"
+                                  ]
+                                },
+                                "attr": {
+                                  "clock_length": 0.000536811855757079,
+                                  "date": "2018-10-25",
+                                  "div": 0.008862458137062382,
+                                  "num_date": 2018.8140280705338,
+                                  "num_date_confidence": [
+                                    2018.765129752574,
+                                    2018.8391954192302
+                                  ]
+                                },
+                                "branch_length": 0.00053681,
+                                "children": [
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00034911936640260655,
+                                      "date": "2018-11-11",
+                                      "div": 0.009189366251072268,
+                                      "location": "Location_A",
+                                      "num_date": 2018.8596851471596,
+                                      "num_date_confidence": [
+                                        2018.8596851471596,
+                                        2018.8596851471596
+                                      ],
+                                      "raw_date": "2018-11-10"
+                                    },
+                                    "branch_length": 0.00034912,
+                                    "clade": 61,
+                                    "muts": [
+                                      "G759A"
+                                    ],
+                                    "strain": "PHR_66",
+                                    "yvalue": 7
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00019900563745997666,
+                                      "date": "2018-11-03",
+                                      "div": 0.009189366251072268,
+                                      "num_date": 2018.8400535979404,
+                                      "num_date_confidence": [
+                                        2018.8045525294847,
+                                        2018.8691200718426
+                                      ]
+                                    },
+                                    "branch_length": 0.00019901,
+                                    "children": [
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.0005060109007882507,
+                                          "date": "2018-11-27",
+                                          "div": 0.00984330000023625,
+                                          "location": "Location_A",
+                                          "num_date": 2018.9062286105407,
+                                          "num_date_confidence": [
+                                            2018.9062286105407,
+                                            2018.9062286105407
+                                          ],
+                                          "raw_date": "2018-11-27"
+                                        },
+                                        "branch_length": 0.00050601,
+                                        "clade": 62,
+                                        "muts": [
+                                          "C813T",
+                                          "C1053T"
+                                        ],
+                                        "strain": "PHR_92",
+                                        "yvalue": 6
+                                      },
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.00025304378095367987,
+                                          "date": "2018-11-15",
+                                          "div": 0.009516280293788157,
+                                          "num_date": 2018.8731461170282,
+                                          "num_date_confidence": [
+                                            2018.8513698592099,
+                                            2018.889801505818
+                                          ]
+                                        },
+                                        "branch_length": 0.00025304,
+                                        "children": [
+                                          {
+                                            "aa_muts": {},
+                                            "attr": {
+                                              "clock_length": 0.0002529671198345708,
+                                              "date": "2018-11-27",
+                                              "div": 0.009843197632586476,
+                                              "location": "Location_A",
+                                              "num_date": 2018.9062286105407,
+                                              "num_date_confidence": [
+                                                2018.9062286105407,
+                                                2018.9062286105407
+                                              ],
+                                              "raw_date": "2018-11-27"
+                                            },
+                                            "branch_length": 0.00025297,
+                                            "clade": 63,
+                                            "muts": [
+                                              "G168A"
+                                            ],
+                                            "strain": "PHR_93",
+                                            "yvalue": 5
+                                          },
+                                          {
+                                            "aa_muts": {},
+                                            "attr": {
+                                              "clock_length": 0.00012735635330153822,
+                                              "date": "2018-11-22",
+                                              "div": 0.009516280293788157,
+                                              "location": "Location_A",
+                                              "num_date": 2018.889801505818,
+                                              "num_date_confidence": [
+                                                2018.889801505818,
+                                                2018.889801505818
+                                              ],
+                                              "raw_date": "2018-11-21"
+                                            },
+                                            "branch_length": 0.00012736,
+                                            "clade": 64,
+                                            "muts": [],
+                                            "strain": "PHR_85",
+                                            "yvalue": 4
+                                          }
+                                        ],
+                                        "clade": 65,
+                                        "muts": [
+                                          "C1458T"
+                                        ],
+                                        "strain": "NODE_0000005",
+                                        "yvalue": 4.5
+                                      }
+                                    ],
+                                    "clade": 66,
+                                    "muts": [
+                                      "G1482A"
+                                    ],
+                                    "strain": "NODE_0000004",
+                                    "yvalue": 5.25
+                                  },
+                                  {
+                                    "aa_muts": {},
+                                    "attr": {
+                                      "clock_length": 0.00036870646070194177,
+                                      "date": "2018-11-11",
+                                      "div": 0.008862458137062382,
+                                      "num_date": 2018.8622467050432,
+                                      "num_date_confidence": [
+                                        2018.8150048856194,
+                                        2018.8816362741723
+                                      ]
+                                    },
+                                    "branch_length": 0.00036871,
+                                    "children": [
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.00021069931101325298,
+                                          "date": "2018-11-22",
+                                          "div": 0.008862458137062382,
+                                          "location": "Location_A",
+                                          "num_date": 2018.889801505818,
+                                          "num_date_confidence": [
+                                            2018.889801505818,
+                                            2018.889801505818
+                                          ],
+                                          "raw_date": "2018-11-21"
+                                        },
+                                        "branch_length": 0.0002107,
+                                        "clade": 67,
+                                        "muts": [],
+                                        "strain": "PHR_87",
+                                        "yvalue": 3
+                                      },
+                                      {
+                                        "aa_muts": {},
+                                        "attr": {
+                                          "clock_length": 0.0001256107665330326,
+                                          "date": "2018-11-17",
+                                          "div": 0.008862458137062382,
+                                          "num_date": 2018.8786738097658,
+                                          "num_date_confidence": [
+                                            2018.8542864634708,
+                                            2018.892539356605
+                                          ]
+                                        },
+                                        "branch_length": 0.00012561,
+                                        "children": [
+                                          {
+                                            "aa_muts": {},
+                                            "attr": {
+                                              "clock_length": 0.00010602367223543606,
+                                              "date": "2018-11-23",
+                                              "div": 0.008862458137062382,
+                                              "location": "Location_A",
+                                              "num_date": 2018.892539356605,
+                                              "num_date_confidence": [
+                                                2018.892539356605,
+                                                2018.892539356605
+                                              ],
+                                              "raw_date": "2018-11-22"
+                                            },
+                                            "branch_length": 0.00010602,
+                                            "clade": 68,
+                                            "muts": [],
+                                            "strain": "PHR_91",
+                                            "yvalue": 2
+                                          },
+                                          {
+                                            "aa_muts": {},
+                                            "attr": {
+                                              "clock_length": 0.00021069931101325298,
+                                              "date": "2018-11-27",
+                                              "div": 0.008862458137062382,
+                                              "location": "Location_A",
+                                              "num_date": 2018.9062286105407,
+                                              "num_date_confidence": [
+                                                2018.9062286105407,
+                                                2018.9062286105407
+                                              ],
+                                              "raw_date": "2018-11-27"
+                                            },
+                                            "branch_length": 0.0002107,
+                                            "clade": 69,
+                                            "muts": [],
+                                            "strain": "PHR_95",
+                                            "yvalue": 1
+                                          }
+                                        ],
+                                        "clade": 70,
+                                        "muts": [],
+                                        "strain": "NODE_0000054",
+                                        "yvalue": 1.5
+                                      }
+                                    ],
+                                    "clade": 71,
+                                    "muts": [],
+                                    "strain": "NODE_0000053",
+                                    "yvalue": 2.25
+                                  }
+                                ],
+                                "clade": 72,
+                                "muts": [
+                                  "C802T",
+                                  "T2954C"
+                                ],
+                                "strain": "NODE_0000000",
+                                "yvalue": 4.625
+                              }
+                            ],
+                            "clade": 73,
+                            "muts": [
+                              "T1098A"
+                            ],
+                            "strain": "NODE_0000006",
+                            "yvalue": 9.8125
+                          }
+                        ],
+                        "clade": 74,
+                        "muts": [
+                          "T630C"
+                        ],
+                        "strain": "NODE_0000014",
+                        "yvalue": 12.90625
+                      }
+                    ],
+                    "clade": 75,
+                    "muts": [],
+                    "strain": "NODE_0000049",
+                    "yvalue": 14.953125
+                  }
+                ],
+                "clade": 76,
+                "muts": [],
+                "strain": "NODE_0000048",
+                "yvalue": 17.7890625
               }
             ],
-            "clade": 40,
+            "clade": 77,
             "muts": [
               "G924A"
             ],
-            "strain": "NODE_0000001",
-            "yvalue": 14.390625
+            "strain": "NODE_0000015",
+            "yvalue": 29.14453125
           }
         ],
-        "clade": 41,
+        "clade": 78,
         "muts": [],
-        "strain": "NODE_0000000",
-        "yvalue": 18.6953125
+        "strain": "NODE_0000024",
+        "yvalue": 36.197265625
       }
     ],
-    "clade": 42,
+    "clade": 79,
     "muts": [],
-    "strain": "NODE_0000022",
-    "yvalue": 21.34765625
+    "strain": "NODE_0000043",
+    "yvalue": 40.5986328125
   }
 }

@@ -52,12 +52,16 @@
     "location": {
       "color_map": [
         [
-          "locA",
+          "Location_A",
           "#2c7fb8"
         ],
         [
-          "locB",
+          "Location_B",
           "#d95f0e"
+        ],
+        [
+          "Location_C",
+          "#1f3443"
         ]
       ],
       "key": "location",
@@ -73,13 +77,17 @@
   },
   "geo": {
     "location": {
-      "locA": {
+      "Location_A": {
         "latitude": 55.95,
         "longitude": -3.2
       },
-      "locB": {
+      "Location_B": {
         "latitude": 52.5,
         "longitude": -1.9
+      },
+      "Location_C": {
+        "latitude": 52.2,
+        "longitude": 0.12
       }
     }
   },
@@ -93,6 +101,6 @@
     "entropy"
   ],
   "title": "LHFV Current Outbreak Simulation",
-  "updated": "07 Dec 2018",
-  "virus_count": 24
+  "updated": "10 Dec 2018",
+  "virus_count": 45
 }
