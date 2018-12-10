@@ -1,372 +1,372 @@
-Case Id,Id,Date of infection,Date of sampling,Contact,Outcome,Location
-case0,3XRILA,2018-08-12,2018-09-06,None,Dead,Location A
-case1,V63FV9,2018-08-18,2018-09-03,case0,Dead,Location A
-case2,CYK21K,2018-08-22,2018-09-21,case0,Dead,Location A
-case3,KPDHI6,2018-08-23,2018-09-06,case0,Dead,Location A
-case4,EYGSNO,2018-08-23,2018-09-03,case0,Dead,Location A
-case5,0FRNZR,2018-08-27,2018-09-14,case0,Dead,Location A
-case6,VCMA0D,2018-08-31,2018-09-18,case2,Dead,Location A
-case7,Y5IBP1,2018-08-31,2018-09-13,case1,Dead,Location A
-case8,HAHMMV,2018-09-01,2018-09-24,case5,Dead,Location A
-case9,AFI8B6,2018-09-03,2018-09-22,case0,Dead,Location A
-case10,F58M0E,2018-09-03,2018-09-18,case3,Dead,Location A
-case11,ZMFJLC,2018-09-07,2018-09-17,case2,Alive,Location A
-case12,DR9JRC,2018-09-08,2018-09-25,case5,Alive,Location A
-case13,HZPK6C,2018-09-10,2018-09-27,case7,Dead,Location A
-case14,X7FWHX,2018-09-11,2018-10-04,case5,Dead,Location A
-case15,2NZMBY,2018-09-13,2018-10-10,case8,Dead,Location A
-case16,VA1HNO,2018-09-14,2018-10-01,case6,Alive,Location B
-case17,2RUFTS,2018-09-15,2018-10-04,case9,Dead,Location A
-case18,G7DBY9,2018-09-15,2018-10-02,case6,Dead,Location A
-case19,15WPE1,2018-09-15,2018-09-30,case9,Alive,Location A
-case20,OGZ6X9,2018-09-15,2018-10-02,case10,Dead,Location A
-case21,XISKQB,2018-09-17,2018-10-07,case8,Dead,Location A
-case22,DLQKHJ,2018-09-18,2018-09-30,case2,Alive,Location A
-case23,ADD2NY,2018-09-19,2018-10-03,case9,Dead,Location A
-case24,SAWSJ4,2018-09-21,2018-10-13,case8,Alive,Location A
-case25,9RIF9S,2018-09-22,2018-10-11,case15,Alive,Location A
-case26,HE02J9,2018-09-22,2018-10-07,case12,Alive,Location A
-case27,YKR5WG,2018-09-23,2018-10-06,case16,Dead,Location B
-case28,DR7ILF,2018-09-24,2018-10-17,case16,Dead,Location B
-case29,KOAML4,2018-09-24,2018-10-07,case21,Alive,Location A
-case30,398YFL,2018-09-25,2018-10-12,case18,Dead,Location A
-case31,94Q8EB,2018-09-25,2018-10-17,case14,Alive,Location A
-case32,18T778,2018-09-25,2018-10-15,case22,Alive,Location A
-case33,E8TEOI,2018-09-27,2018-10-14,case15,Dead,Location A
-case34,GG53D5,2018-09-27,2018-10-12,case14,Dead,Location A
-case35,DBXP3O,2018-09-27,2018-10-15,case15,Alive,Location A
-case36,X5PCFD,2018-09-27,2018-10-16,case22,Alive,Location A
-case37,00EFMC,2018-09-28,2018-10-09,case16,Alive,Location B
-case38,LFEBW4,2018-09-29,2018-10-18,case18,Dead,Location A
-case39,984BEV,2018-09-29,2018-10-08,case20,Dead,Location A
-case40,FUA32J,2018-09-29,2018-10-15,case15,Dead,Location A
-case41,Y4IGWO,2018-09-30,2018-10-23,case23,Dead,Location A
-case42,2IMOGH,2018-10-01,2018-10-20,case14,Dead,Location A
-case43,DHEFXG,2018-10-03,2018-10-23,case29,Dead,Location A
-case44,B37MXF,2018-10-04,2018-10-14,case24,Alive,Location A
-case45,PAQ7MA,2018-10-04,2018-10-14,case21,Dead,Location A
-case46,2QBG70,2018-10-04,2018-10-18,case26,Dead,Location A
-case47,DQ4UOD,2018-10-04,2018-10-22,case29,Alive,Location A
-case48,RITCLW,2018-10-06,2018-10-23,case37,Alive,Location B
-case49,ZATGBU,2018-10-07,2018-10-22,case31,Dead,Location A
-case50,2P0U5W,2018-10-07,2018-11-01,case32,Dead,Location A
-case51,Z1NFRT,2018-10-07,2018-10-28,case32,Dead,Location A
-case52,3332YL,2018-10-07,2018-10-26,case15,Dead,Location A
-case53,VZDUFK,2018-10-08,2018-10-21,case36,Dead,Location A
-case54,U8BMNX,2018-10-09,2018-10-31,case30,Dead,Location A
-case55,IFV2YN,2018-10-09,2018-10-21,case41,Dead,Location A
-case56,8VEB90,2018-10-09,2018-11-04,case34,Alive,Location A
-case57,4OU66G,2018-10-09,2018-10-26,case34,Dead,Location A
-case58,3AS8NE,2018-10-10,2018-10-25,case24,Dead,Location A
-case59,OAUCFJ,2018-10-11,2018-10-31,case44,Dead,Location A
-case60,VKG6ZZ,2018-10-11,2018-10-23,case33,Dead,Location A
-case61,Y6I6WW,2018-10-11,2018-10-18,case32,Dead,Location A
-case62,RMUYLL,2018-10-11,2018-10-19,case41,Alive,Location A
-case63,KATBR4,2018-10-12,2018-11-06,case40,Dead,Location A
-case64,71FRSJ,2018-10-12,2018-10-17,case32,Alive,Location A
-case65,724OLV,2018-10-12,2018-11-01,case41,Dead,Location A
-case66,JWD8RW,2018-10-13,2018-10-29,case31,Dead,Location A
-case67,BL8G3I,2018-10-13,2018-10-31,case41,Dead,Location A
-case68,VN8I1N,2018-10-13,2018-11-07,case36,Dead,Location A
-case69,6M1A9D,2018-10-14,2018-10-27,case28,Dead,Location B
-case70,W5XDXZ,2018-10-14,2018-10-27,case41,Dead,Location A
-case71,31M9GK,2018-10-14,2018-10-28,case41,Dead,Location A
-case72,FWQP47,2018-10-14,2018-11-06,case41,Dead,Location A
-case73,L7A8VO,2018-10-14,2018-11-03,case38,Dead,Location A
-case74,LBDMVS,2018-10-14,2018-11-16,case41,Dead,Location A
-case75,IVTZCE,2018-10-14,2018-11-10,case51,Alive,Location A
-case76,ZP33CU,2018-10-14,2018-10-29,case31,Dead,Location A
-case77,LJM7Y6,2018-10-15,2018-10-28,case46,Dead,Location A
-case78,JYCZIS,2018-10-15,2018-11-06,case48,Dead,Location B
-case79,04LG65,2018-10-15,2018-11-06,case41,Dead,Location A
-case80,7QQXW8,2018-10-15,2018-11-02,case38,Alive,Location A
-case81,AMD73T,2018-10-17,2018-11-03,case48,Dead,Location B
-case82,GNAM3H,2018-10-17,2018-10-24,case47,Dead,Location A
-case83,QTSOAL,2018-10-17,2018-11-02,case67,Alive,Location A
-case84,0RXWU9,2018-10-17,2018-11-04,case49,Dead,Location A
-case85,K9BINF,2018-10-18,2018-11-01,case41,Dead,Location A
-case86,DNBQ2W,2018-10-18,2018-10-29,case55,Dead,Location A
-case87,W9EG01,2018-10-19,2018-11-17,case49,Dead,Location A
-case88,LDPJ60,2018-10-19,2018-10-30,case59,Dead,Location A
-case89,XMW670,2018-10-19,2018-10-28,case47,Dead,Location A
-case90,CK8UR3,2018-10-20,2018-11-01,case59,Dead,Location A
-case91,SS181G,2018-10-20,2018-11-06,case48,Dead,Location B
-case92,DWO0QX,2018-10-20,2018-11-14,case60,Dead,Location A
-case93,2XE06L,2018-10-20,2018-11-13,case78,Dead,Location B
-case94,EHU15B,2018-10-20,2018-11-02,case41,Dead,Location A
-case95,T1FYQM,2018-10-21,2018-11-10,case65,Dead,Location A
-case96,4KBPSA,2018-10-21,2018-10-29,case51,Dead,Location A
-case97,7HAM2G,2018-10-22,2018-11-04,case58,Dead,Location A
-case98,Y6RLE7,2018-10-22,2018-11-18,case58,Alive,Location A
-case99,7TJ0LM,2018-10-22,2018-11-14,case59,Alive,Location A
-case100,T4S46U,2018-10-22,2018-11-11,case67,Dead,Location A
-case101,63D84F,2018-10-22,2018-11-07,case70,Dead,Location A
-case102,F0VE4K,2018-10-22,2018-10-31,case73,Alive,Location A
-case103,8J5085,2018-10-23,2018-11-13,case52,Dead,Location A
-case104,H6AS2F,2018-10-23,2018-11-13,case72,Dead,Location A
-case105,Q9KRAV,2018-10-23,2018-11-09,case57,Dead,Location A
-case106,627XUL,2018-10-23,2018-11-13,case51,Alive,Location A
-case107,KUUV4F,2018-10-23,2018-11-17,case84,Dead,Location A
-case108,USGQTD,2018-10-24,2018-11-03,case50,Dead,Location A
-case109,Z4ET0O,2018-10-24,2018-11-08,case67,Dead,Location A
-case110,2SY26C,2018-10-24,2018-11-17,case80,Dead,Location A
-case111,NKHEFF,2018-10-24,2018-11-13,case70,Alive,Location A
-case112,SA4SD2,2018-10-24,2018-11-18,case69,Dead,Location B
-case113,KKFRGH,2018-10-25,2018-11-23,case51,Alive,Location A
-case114,KQXQOM,2018-10-25,2018-11-20,case67,Dead,Location A
-case115,M58M0R,2018-10-25,2018-11-10,case74,Alive,Location A
-case116,3PZFQR,2018-10-25,2018-11-19,case68,Dead,Location A
-case117,JLBYI3,2018-10-25,2018-11-20,case71,Dead,Location A
-case118,5HGYZ8,2018-10-25,2018-11-20,case59,Dead,Location A
-case119,VIOVPW,2018-10-25,2018-11-02,case73,Alive,Location A
-case120,8FGFAX,2018-10-26,2018-11-16,case75,Dead,Location A
-case121,3XO28A,2018-10-26,2018-10-31,case76,Alive,Location A
-case122,2QVKXE,2018-10-26,2018-11-18,case81,Alive,Location B
-case123,SNRKZH,2018-10-27,2018-11-19,case67,Dead,Location A
-case124,BPJBLE,2018-10-27,2018-11-22,case59,Dead,Location A
-case125,ZI0R4E,2018-10-27,2018-11-19,case84,Alive,Location A
-case126,0JRG6J,2018-10-28,2018-11-12,case59,Dead,Location A
-case127,J47QAX,2018-10-28,2018-11-11,case67,Alive,Location A
-case128,GSHAO4,2018-10-28,2018-11-14,case79,Dead,Location A
-case129,9K7WRM,2018-10-28,2018-11-16,case67,Alive,Location A
-case130,KVBPFM,2018-10-28,2018-11-18,case95,Dead,Location A
-case131,AZA4BD,2018-10-28,2018-11-18,case79,Dead,Location A
-case132,MTT8E1,2018-10-28,2018-11-21,case95,Alive,Location A
-case133,9N6NFG,2018-10-29,2018-11-15,case85,Alive,Location A
-case134,FNUC3L,2018-10-29,2018-11-20,case65,Alive,Location A
-case135,RWG9RQ,2018-10-29,2018-11-16,case73,Alive,Location A
-case136,JDCXFJ,2018-10-29,2018-11-15,case50,Alive,Location A
-case137,VBQPLB,2018-10-30,2018-11-10,case94,Dead,Location A
-case138,D1AWEI,2018-10-30,2018-11-09,case79,Alive,Location A
-case139,MJ383U,2018-10-30,2018-11-08,case80,Dead,Location A
-case140,25OM4R,2018-10-30,2018-11-17,case94,Dead,Location A
-case141,2D4NJ2,2018-10-30,2018-11-09,case83,Alive,Location A
-case142,K4H1XL,2018-10-30,2018-11-06,case63,Dead,Location A
-case143,V3GCIE,2018-10-30,2018-11-22,case110,Alive,Location A
-case144,XEQ6QH,2018-10-31,2018-11-17,case73,Dead,Location A
-case145,6R20NZ,2018-10-31,2018-11-19,case74,Dead,Location A
-case146,NSZ6UW,2018-10-31,2018-11-05,case104,Dead,Location A
-case147,JMECDV,2018-10-31,2018-11-22,case100,Alive,Location A
-case148,E30XBV,2018-10-31,2018-11-20,case81,Dead,Location B
-case149,L2QDDQ,2018-11-01,2018-11-21,case84,Alive,Location A
-case150,3OBRZD,2018-11-01,2018-11-14,case97,Dead,Location A
-case151,N1GUDZ,2018-11-01,2018-11-16,case91,Dead,Location B
-case152,H0F7SW,2018-11-01,2018-11-14,case79,Dead,Location A
-case153,PB4K0L,2018-11-01,2018-11-18,case98,Dead,Location A
-case154,DX1ZWS,2018-11-01,2018-11-08,case78,Alive,Location B
-case155,99B0V4,2018-11-01,2018-11-19,case107,Dead,Location A
-case156,BUMPHY,2018-11-01,2018-11-16,case98,Dead,Location A
-case157,WYEW04,2018-11-01,2018-11-17,case98,Dead,Location A
-case158,MXYPXH,2018-11-02,2018-11-18,case99,Dead,Location A
-case159,SE1TT3,2018-11-02,2018-11-23,case114,Dead,Location A
-case160,MYN6U1,2018-11-02,2018-11-20,case112,Alive,Location B
-case161,X8VLDE,2018-11-02,2018-11-21,case120,Alive,Location A
-case162,D2VMGO,2018-11-02,2018-11-16,case118,Alive,Location A
-case163,IWPWDK,2018-11-03,2018-11-16,case106,Dead,Location A
-case164,SH6IAB,2018-11-03,2018-11-19,case127,Dead,Location A
-case165,N6OZOD,2018-11-03,2018-11-17,case118,Dead,Location A
-case166,TGYDRP,2018-11-03,2018-11-18,case63,Alive,Location A
-case167,62OLXX,2018-11-03,2018-11-14,case91,Dead,Location B
-case168,RDAUTF,2018-11-03,2018-11-09,case79,Dead,Location A
-case169,AHGKTO,2018-11-03,2018-11-21,case107,Dead,Location A
-case170,6B3X3G,2018-11-03,2018-11-23,case142,Dead,Location A
-case171,YPJ6UA,2018-11-03,2018-11-18,case95,Dead,Location A
-case172,8ED86A,2018-11-03,2018-11-23,case78,Dead,Location B
-case173,DGVFVC,2018-11-03,2018-11-08,case72,Dead,Location A
-case174,HDK9DZ,2018-11-04,2018-11-17,case114,Dead,Location A
-case175,NQ8APD,2018-11-04,2018-11-19,case107,Alive,Location A
-case176,KPM2F9,2018-11-04,2018-11-20,case98,Dead,Location A
-case177,BN75U1,2018-11-04,2018-11-20,case68,Alive,Location A
-case178,FBSFBA,2018-11-05,2018-11-22,case111,Dead,Location A
-case179,FQU9YP,2018-11-05,2018-11-24,case105,Dead,Location A
-case180,YEBHYK,2018-11-05,2018-11-21,case110,Dead,Location A
-case181,HGKEPM,2018-11-05,2018-11-26,case126,Dead,Location A
-case182,DVEM4A,2018-11-05,2018-11-18,case93,Alive,Location B
-case183,N7WTV5,2018-11-06,2018-11-15,case107,Dead,Location A
-case184,0XFWGV,2018-11-06,2018-11-14,case123,Alive,Location A
-case185,XLTI3J,2018-11-06,2018-11-23,case127,Dead,Location A
-case186,536WNJ,2018-11-06,2018-11-22,case129,Dead,Location A
-case187,EQ5BK8,2018-11-06,2018-11-18,case132,Dead,Location A
-case188,GYB1EP,2018-11-06,2018-11-22,case129,Alive,Location A
-case189,N6GFN3,2018-11-06,2018-11-22,case105,Alive,Location A
-case190,0CASUJ,2018-11-06,2018-11-20,case125,Dead,Location A
-case191,FCE551,2018-11-07,2018-11-25,case115,Dead,Location A
-case192,8X48WT,2018-11-07,2018-11-22,case75,Alive,Location A
-case193,9I753M,2018-11-07,2018-11-22,case167,Alive,Location B
-case194,J70CEK,2018-11-07,2018-11-19,case107,Alive,Location A
-case195,JB3OJJ,2018-11-07,2018-11-21,case135,Dead,Location A
-case196,R87A61,2018-11-07,2018-11-17,case114,Dead,Location A
-case197,LJ1P0M,2018-11-07,2018-11-22,case132,Alive,Location A
-case198,8DA6GM,2018-11-07,2018-11-22,case95,Dead,Location A
-case199,V2CCPJ,2018-11-07,2018-11-21,case122,Dead,Location B
-case200,GTEZTA,2018-11-07,2018-11-17,case130,Alive,Location A
-case201,EXFYMP,2018-11-07,2018-11-22,case103,Dead,Location A
-case202,YMUH52,2018-11-08,2018-11-22,case118,Dead,Location A
-case203,W1V69W,2018-11-08,2018-11-26,case100,Alive,Location A
-case204,Z97OVR,2018-11-08,2018-11-21,case99,Dead,Location A
-case205,J0L3RG,2018-11-08,2018-11-23,case104,Alive,Location A
-case206,CZKVWB,2018-11-08,2018-11-22,case143,Dead,Location A
-case207,RFJ37A,2018-11-08,2018-11-21,case127,Dead,Location A
-case208,1NC1P6,2018-11-08,2018-11-21,case123,Dead,Location A
-case209,33OIP2,2018-11-08,2018-11-22,case131,Alive,Location A
-case210,W3OEKV,2018-11-08,2018-11-23,case155,Alive,Location A
-case211,1Z5Z6Z,2018-11-08,2018-11-18,case104,Dead,Location A
-case212,Z2F9S6,2018-11-08,2018-11-22,case118,Dead,Location A
-case213,2LCE5K,2018-11-08,2018-11-22,case112,Dead,Location B
-case214,M1688X,2018-11-09,2018-11-28,case107,Dead,Location A
-case215,BVMHZP,2018-11-09,2018-11-22,case134,Dead,Location A
-case216,TGVCOG,2018-11-09,2018-11-22,case159,Dead,Location A
-case217,283Z1N,2018-11-09,2018-11-21,case132,Dead,Location A
-case218,WRA82E,2018-11-09,2018-12-08,case131,Dead,Location A
-case219,HR3LXQ,2018-11-09,2018-11-22,case163,Dead,Location A
-case220,NO0G97,2018-11-09,2018-11-22,case160,Dead,Location B
-case221,6MQ1CU,2018-11-09,2018-11-21,case126,Dead,Location A
-case222,D59VVE,2018-11-10,2018-11-24,case111,Dead,Location A
-case223,F1JC0T,2018-11-10,2018-11-24,case93,Dead,Location B
-case224,HU0BMP,2018-11-10,2018-11-25,case120,Alive,Location A
-case225,Z0EZ6Y,2018-11-10,2018-12-02,case134,Dead,Location A
-case226,Q8EPZP,2018-11-10,2018-12-17,case178,Dead,Location A
-case227,X6T1GF,2018-11-10,2018-11-21,case132,Dead,Location A
-case228,MS16YZ,2018-11-10,2018-11-25,case103,Alive,Location A
-case229,DKPGTY,2018-11-10,2018-11-21,case104,Alive,Location A
-case230,324CCY,2018-11-10,2018-11-26,case125,Dead,Location A
-case231,KJS67F,2018-11-10,2018-11-27,case132,Alive,Location A
-case232,C1B04O,2018-11-10,2018-11-20,case106,Alive,Location A
-case233,HDRTPC,2018-11-11,2018-11-18,case132,Dead,Location A
-case234,I8ATCY,2018-11-11,2018-11-20,case107,Alive,Location A
-case235,1OLZQD,2018-11-11,2018-11-22,case152,Alive,Location A
-case236,SDH99J,2018-11-11,2018-11-18,case128,Dead,Location A
-case237,TPD2RP,2018-11-11,2018-11-19,case131,Dead,Location A
-case238,LHX258,2018-11-11,2018-11-21,case167,Dead,Location B
-case239,6ZCHI4,2018-11-11,2018-11-21,case92,Dead,Location A
-case240,WUMFX4,2018-11-11,2018-11-25,case131,Dead,Location A
-case241,3GPGE0,2018-11-11,2018-11-29,case99,Dead,Location A
-case242,8YQL2H,2018-11-12,2018-11-22,case110,Dead,Location A
-case243,PI4D9F,2018-11-12,2018-11-25,case163,Dead,Location A
-case244,V2R49Z,2018-11-12,2018-11-22,case136,Alive,Location A
-case245,7LZPRL,2018-11-12,2018-11-24,case125,Dead,Location A
-case246,P4TANG,2018-11-12,2018-11-21,case125,Alive,Location A
-case247,XPX5BL,2018-11-12,2018-11-25,case147,Dead,Location A
-case248,J3VYK4,2018-11-13,2018-11-26,case135,Dead,Location A
-case249,TR7E40,2018-11-13,2018-11-17,case74,Dead,Location A
-case250,2YYWOD,2018-11-13,2018-12-01,case120,Alive,Location A
-case251,Z1X4FA,2018-11-13,2018-11-20,case129,Dead,Location A
-case252,83RKJR,2018-11-13,2018-11-21,case132,Dead,Location A
-case253,AHDYFP,2018-11-13,2018-11-20,case160,Dead,Location B
-case254,LMVVM6,2018-11-13,2018-11-25,case163,Dead,Location A
-case255,GPHYFU,2018-11-13,2018-12-03,case151,Alive,Location B
-case256,KZ8L7G,2018-11-13,2018-11-30,case162,Alive,Location A
-case257,OPWRUD,2018-11-13,2018-11-30,case140,Dead,Location A
-case258,R59SI8,2018-11-14,2018-11-23,case125,Dead,Location A
-case259,6W0BJ2,2018-11-14,2018-11-26,case196,Alive,Location A
-case260,W88KMJ,2018-11-14,2018-11-27,case132,Dead,Location A
-case261,RC79UJ,2018-11-14,2018-11-24,case110,Dead,Location A
-case262,JOCVF9,2018-11-14,2018-11-25,case107,Dead,Location A
-case263,CEONGA,2018-11-14,2018-11-26,case148,Dead,Location B
-case264,QOZXHG,2018-11-14,2018-12-01,case144,Alive,Location A
-case265,T7AX4X,2018-11-14,2018-11-24,case87,Dead,Location A
-case266,HFUWX4,2018-11-14,2018-12-04,case165,Alive,Location A
-case267,OF5HRB,2018-11-14,2018-11-24,case185,Dead,Location A
-case268,RY4FOX,2018-11-14,2018-12-03,case157,Dead,Location A
-case269,V1IN5V,2018-11-14,2018-12-06,case140,Dead,Location A
-case270,FTA58X,2018-11-14,2018-11-29,case155,Dead,Location A
-case271,LX9URE,2018-11-14,2018-12-02,case200,Dead,Location A
-case272,Z6VA46,2018-11-14,2018-12-01,case132,Dead,Location A
-case273,C7GMOE,2018-11-14,2018-11-30,case125,Dead,Location A
-case274,KT86EL,2018-11-14,2018-11-28,case107,Dead,Location A
-case275,79S6T3,2018-11-15,2018-12-04,case131,Alive,Location A
-case276,9MK1WM,2018-11-15,2018-11-27,case177,Dead,Location A
-case277,43K8PP,2018-11-15,2018-11-24,case132,Alive,Location A
-case278,6CMK52,2018-11-15,2018-12-06,case212,Dead,Location A
-case279,YRVJOR,2018-11-15,2018-11-29,case98,Alive,Location A
-case280,BGF4Q8,2018-11-15,2018-11-25,case187,Dead,Location A
-case281,IGDB7X,2018-11-15,2018-12-04,case178,Dead,Location A
-case282,18QIM9,2018-11-15,2018-11-23,case182,Dead,Location B
-case283,42VRXP,2018-11-15,2018-12-06,case198,Dead,Location A
-case284,7ZCYZV,2018-11-15,2018-11-28,case171,Dead,Location A
-case285,VXNW5S,2018-11-15,2018-12-09,case185,Dead,Location A
-case286,MTBN3K,2018-11-15,2018-11-19,case199,Dead,Location B
-case287,O30CT0,2018-11-15,2018-12-07,case166,Dead,Location A
-case288,EB6OLW,2018-11-15,2018-11-27,case155,Dead,Location A
-case289,HXTW49,2018-11-15,2018-11-26,case153,Dead,Location A
-case290,A3DZ23,2018-11-15,2018-11-26,case205,Alive,Location A
-case291,3NY750,2018-11-15,2018-12-07,case112,Dead,Location B
-case292,URFULZ,2018-11-15,2018-11-25,case130,Dead,Location A
-case293,449BAI,2018-11-15,2018-11-23,case122,Dead,Location B
-case294,OTOTK0,2018-11-15,2018-12-03,case158,Dead,Location A
-case295,03RKJK,2018-11-15,2018-11-25,case178,Dead,Location A
-case296,9TIM1A,2018-11-15,2018-12-05,case170,Dead,Location A
-case297,C7SO53,2018-11-16,2018-11-30,case132,Alive,Location A
-case298,K07K2G,2018-11-16,2018-11-24,case194,Alive,Location A
-case299,YKU2NU,2018-11-16,2018-11-27,case194,Alive,Location A
-case300,34BWVH,2018-11-16,2018-11-25,case124,Dead,Location A
-case301,TLPREY,2018-11-16,2018-12-08,case145,Alive,Location A
-case302,I7OOCX,2018-11-16,2018-11-23,case159,Dead,Location A
-case303,SUGF0Y,2018-11-16,2018-12-01,case155,Alive,Location A
-case304,YYS3OC,2018-11-16,2018-12-02,case123,Dead,Location A
-case305,UI8I9J,2018-11-16,2018-11-26,case125,Dead,Location A
-case306,WZIO5W,2018-11-16,2018-11-25,case116,Alive,Location A
-case307,359W6L,2018-11-16,2018-12-05,case155,Dead,Location A
-case308,UWWXBM,2018-11-16,2018-11-30,case237,Dead,Location A
-case309,652A03,2018-11-17,2018-12-02,case134,Alive,Location A
-case310,UEDMCQ,2018-11-17,2018-12-01,case190,Dead,Location A
-case311,DK2E1U,2018-11-17,2018-11-30,case177,Alive,Location A
-case312,687D04,2018-11-17,2018-11-24,case147,Dead,Location A
-case313,A76L6I,2018-11-17,2018-11-28,case219,Dead,Location A
-case314,VBYQ52,2018-11-17,2018-11-29,case148,Alive,Location B
-case315,09DKDP,2018-11-17,2018-12-03,case198,Dead,Location A
-case316,4VNN7S,2018-11-17,2018-12-09,case117,Alive,Location A
-case317,MFE6WR,2018-11-17,2018-11-25,case114,Dead,Location A
-case318,60O5MI,2018-11-17,2018-11-28,case118,Alive,Location A
-case319,VWRILU,2018-11-17,2018-12-06,case160,Alive,Location B
-case320,WD32ZC,2018-11-18,2018-11-29,case197,Dead,Location A
-case321,CH9UT3,2018-11-18,2018-12-05,case199,Alive,Location B
-case322,ZDQJX9,2018-11-18,2018-12-07,case204,Alive,Location A
-case323,VT0Z43,2018-11-18,2018-12-12,case169,Alive,Location A
-case324,QX6P4W,2018-11-18,2018-11-30,case195,Dead,Location A
-case325,D3ODIF,2018-11-18,2018-11-28,case180,Alive,Location A
-case326,9CL0QW,2018-11-18,2018-12-01,case149,Dead,Location A
-case327,5TZ7U5,2018-11-18,2018-11-29,case186,Alive,Location A
-case328,N72Y92,2018-11-18,2018-11-30,case227,Dead,Location A
-case329,1FHP6H,2018-11-18,2018-12-06,case209,Dead,Location A
-case330,DVVTGC,2018-11-18,2018-12-05,case221,Dead,Location A
-case331,SDT2WX,2018-11-18,2018-11-30,case239,Dead,Location A
-case332,HPFRTL,2018-11-18,2018-11-24,case208,Dead,Location A
-case333,ADDPWB,2018-11-18,2018-12-01,case207,Dead,Location A
-case334,7HSPXL,2018-11-18,2018-11-25,case219,Alive,Location A
-case335,W7LN6Q,2018-11-18,2018-11-25,case180,Dead,Location A
-case336,YEAJYF,2018-11-18,2018-12-01,case195,Dead,Location A
-case337,KE254Y,2018-11-18,2018-12-01,case172,Dead,Location B
-case338,CXTX5D,2018-11-18,2018-12-03,case202,Dead,Location A
-case339,X7ON99,2018-11-18,2018-11-27,case132,Dead,Location A
-case340,43S3CH,2018-11-18,2018-12-04,case147,Dead,Location A
-case341,QFA4MV,2018-11-18,2018-12-04,case172,Alive,Location B
-case342,W8MRAF,2018-11-19,2018-11-30,case147,Alive,Location A
-case343,D3BZ72,2018-11-19,2018-12-02,case213,Dead,Location B
-case344,G4JP5T,2018-11-19,2018-12-07,case124,Dead,Location A
-case345,0I8PN7,2018-11-19,2018-11-30,case202,Dead,Location A
-case346,IG5ER8,2018-11-19,2018-11-30,case220,Dead,Location B
-case347,72QYQ7,2018-11-19,2018-12-07,case216,Alive,Location A
-case348,HSZLAE,2018-11-19,2018-12-01,case143,Dead,Location A
-case349,27H197,2018-11-19,2018-11-30,case216,Dead,Location A
-case350,S7Y39H,2018-11-19,2018-11-27,case189,Dead,Location A
-case351,5063CD,2018-11-19,2018-12-08,case197,Alive,Location A
-case352,ZUGLB8,2018-11-19,2018-12-08,case178,Alive,Location A
-case353,4C10L7,2018-11-19,2018-12-03,case219,Dead,Location A
-case354,9SLOQP,2018-11-19,2018-12-20,case198,Alive,Location A
-case355,2PGCTQ,2018-11-19,2018-12-04,case242,Dead,Location A
-case356,AB81KI,2018-11-19,2018-12-04,case219,Alive,Location A
-case357,BTKTKA,2018-11-19,2018-11-28,case215,Dead,Location A
-case358,SYML43,2018-11-19,2018-12-02,case185,Dead,Location A
-case359,TWKSV8,2018-11-19,2018-12-08,case212,Dead,Location A
-case360,913SZF,2018-11-19,2018-12-01,case186,Dead,Location A
-case361,WJGUV1,2018-11-19,2018-12-01,case201,Alive,Location A
-case362,F7DX76,2018-11-19,2018-12-06,case178,Alive,Location A
-case363,L0Z1XN,2018-11-19,2018-11-29,case206,Dead,Location A
-case364,HZOHEN,2018-11-19,2018-11-30,case209,Dead,Location A
-case365,L9FHF1,2018-11-20,2018-11-29,case205,Dead,Location A
-case366,YO6SER,2018-11-20,2018-12-10,case185,Alive,Location A
-case367,RHCDJ5,2018-11-20,2018-12-08,case170,Dead,Location A
-case368,T36PCQ,2018-11-20,2018-12-08,case172,Dead,Location B
-case369,T7ERZ5,2018-11-20,2018-11-28,case159,Dead,Location A
-case370,Q1ZVN2,2018-11-20,2018-11-28,case258,Alive,Location A
+Case Id,Id,Date of infection,Date of sampling,Contact,Outcome,Location,SampleID
+case0,3XRILA,12/08/2018,06/09/2018,None,Dead,Location_A,
+case1,V63FV9,18/08/2018,03/09/2018,case0,Dead,Location_A,
+case2,CYK21K,22/08/2018,21/09/2018,case0,Dead,Location_A,
+case3,KPDHI6,23/08/2018,06/09/2018,case0,Dead,Location_A,
+case4,EYGSNO,23/08/2018,03/09/2018,case0,Dead,Location_A,
+case5,0FRNZR,27/08/2018,14/09/2018,case0,Dead,Location_A,
+case6,VCMA0D,31/08/2018,18/09/2018,case2,Dead,Location_A,
+case7,Y5IBP1,31/08/2018,13/09/2018,case1,Dead,Location_A,
+case8,HAHMMV,01/09/2018,24/09/2018,case5,Dead,Location_A,
+case9,AFI8B6,03/09/2018,22/09/2018,case0,Dead,Location_A,
+case10,F58M0E,03/09/2018,18/09/2018,case3,Dead,Location_A,
+case11,ZMFJLC,07/09/2018,17/09/2018,case2,Alive,Location_A,
+case12,DR9JRC,08/09/2018,25/09/2018,case5,Alive,Location_A,
+case13,HZPK6C,10/09/2018,27/09/2018,case7,Dead,Location_A,
+case14,X7FWHX,11/09/2018,04/10/2018,case5,Dead,Location_A,
+case15,2NZMBY,13/09/2018,10/10/2018,case8,Dead,Location_A,
+case16,VA1HNO,14/09/2018,01/10/2018,case6,Alive,Location_B,
+case17,2RUFTS,15/09/2018,04/10/2018,case9,Dead,Location_A,
+case18,G7DBY9,15/09/2018,02/10/2018,case6,Dead,Location_A,
+case19,15WPE1,15/09/2018,30/09/2018,case9,Alive,Location_A,
+case20,OGZ6X9,15/09/2018,02/10/2018,case10,Dead,Location_A,
+case21,XISKQB,17/09/2018,07/10/2018,case8,Dead,Location_A,
+case22,DLQKHJ,18/09/2018,30/09/2018,case2,Alive,Location_A,
+case23,ADD2NY,19/09/2018,03/10/2018,case9,Dead,Location_A,
+case24,SAWSJ4,21/09/2018,13/10/2018,case8,Alive,Location_A,
+case25,9RIF9S,22/09/2018,11/10/2018,case15,Alive,Location_A,
+case26,HE02J9,22/09/2018,07/10/2018,case12,Alive,Location_A,
+case27,YKR5WG,23/09/2018,06/10/2018,case16,Dead,Location_B,
+case28,DR7ILF,24/09/2018,17/10/2018,case16,Dead,Location_B,
+case29,KOAML4,24/09/2018,07/10/2018,case21,Alive,Location_A,
+case30,398YFL,25/09/2018,12/10/2018,case18,Dead,Location_A,
+case31,94Q8EB,25/09/2018,17/10/2018,case14,Alive,Location_A,
+case32,18T778,25/09/2018,15/10/2018,case22,Alive,Location_A,
+case33,E8TEOI,27/09/2018,14/10/2018,case15,Dead,Location_A,
+case34,GG53D5,27/09/2018,12/10/2018,case14,Dead,Location_A,
+case35,DBXP3O,27/09/2018,15/10/2018,case15,Alive,Location_A,
+case36,X5PCFD,27/09/2018,16/10/2018,case22,Alive,Location_A,
+case37,00EFMC,28/09/2018,09/10/2018,case16,Alive,Location_B,
+case38,LFEBW4,29/09/2018,18/10/2018,case18,Dead,Location_A,
+case39,984BEV,29/09/2018,08/10/2018,case20,Dead,Location_A,
+case40,FUA32J,29/09/2018,15/10/2018,case15,Dead,Location_A,
+case41,Y4IGWO,30/09/2018,23/10/2018,case23,Dead,Location_A,
+case42,2IMOGH,01/10/2018,20/10/2018,case14,Dead,Location_A,
+case43,DHEFXG,03/10/2018,23/10/2018,case29,Dead,Location_A,
+case44,B37MXF,04/10/2018,14/10/2018,case24,Alive,Location_A,
+case45,PAQ7MA,04/10/2018,14/10/2018,case21,Dead,Location_A,
+case46,2QBG70,04/10/2018,18/10/2018,case26,Dead,Location_A,
+case47,DQ4UOD,04/10/2018,22/10/2018,case29,Alive,Location_A,
+case48,RITCLW,06/10/2018,23/10/2018,case37,Alive,Location_B,
+case49,ZATGBU,07/10/2018,22/10/2018,case31,Dead,Location_A,
+case50,2P0U5W,07/10/2018,01/11/2018,case32,Dead,Location_A,
+case51,Z1NFRT,07/10/2018,28/10/2018,case32,Dead,Location_A,
+case52,3332YL,07/10/2018,26/10/2018,case15,Dead,Location_A,
+case53,VZDUFK,08/10/2018,21/10/2018,case36,Dead,Location_A,
+case54,U8BMNX,09/10/2018,31/10/2018,case30,Dead,Location_A,
+case55,IFV2YN,09/10/2018,21/10/2018,case41,Dead,Location_A,
+case56,8VEB90,09/10/2018,04/11/2018,case34,Alive,Location_A,
+case57,4OU66G,09/10/2018,26/10/2018,case34,Dead,Location_A,
+case58,3AS8NE,10/10/2018,25/10/2018,case24,Dead,Location_A,
+case59,OAUCFJ,11/10/2018,31/10/2018,case44,Dead,Location_A,
+case60,VKG6ZZ,11/10/2018,23/10/2018,case33,Dead,Location_A,
+case61,Y6I6WW,11/10/2018,18/10/2018,case32,Dead,Location_A,
+case62,RMUYLL,11/10/2018,19/10/2018,case41,Alive,Location_A,
+case63,KATBR4,12/10/2018,06/11/2018,case40,Dead,Location_A,
+case64,71FRSJ,12/10/2018,17/10/2018,case32,Alive,Location_A,
+case65,724OLV,12/10/2018,01/11/2018,case41,Dead,Location_A,
+case66,JWD8RW,13/10/2018,29/10/2018,case31,Dead,Location_A,
+case67,BL8G3I,13/10/2018,31/10/2018,case41,Dead,Location_A,
+case68,VN8I1N,13/10/2018,07/11/2018,case36,Dead,Location_A,
+case69,6M1A9D,14/10/2018,27/10/2018,case28,Dead,Location_B,
+case70,W5XDXZ,14/10/2018,27/10/2018,case41,Dead,Location_A,
+case71,31M9GK,14/10/2018,28/10/2018,case41,Dead,Location_A,
+case72,FWQP47,14/10/2018,06/11/2018,case41,Dead,Location_A,
+case73,L7A8VO,14/10/2018,03/11/2018,case38,Dead,Location_A,
+case74,LBDMVS,14/10/2018,16/11/2018,case41,Dead,Location_A,
+case75,IVTZCE,14/10/2018,10/11/2018,case51,Alive,Location_A,
+case76,ZP33CU,14/10/2018,29/10/2018,case31,Dead,Location_A,
+case77,LJM7Y6,15/10/2018,28/10/2018,case46,Dead,Location_A,
+case78,JYCZIS,15/10/2018,06/11/2018,case48,Dead,Location_B,
+case79,04LG65,15/10/2018,06/11/2018,case41,Dead,Location_A,
+case80,7QQXW8,15/10/2018,02/11/2018,case38,Alive,Location_A,
+case81,AMD73T,17/10/2018,03/11/2018,case48,Dead,Location_B,
+case82,GNAM3H,17/10/2018,24/10/2018,case47,Dead,Location_A,
+case83,QTSOAL,17/10/2018,02/11/2018,case67,Alive,Location_A,
+case84,0RXWU9,17/10/2018,04/11/2018,case49,Dead,Location_A,
+case85,K9BINF,18/10/2018,01/11/2018,case41,Dead,Location_A,
+case86,DNBQ2W,18/10/2018,29/10/2018,case55,Dead,Location_A,
+case87,W9EG01,19/10/2018,17/11/2018,case49,Dead,Location_A,
+case88,LDPJ60,19/10/2018,30/10/2018,case59,Dead,Location_A,
+case89,XMW670,19/10/2018,28/10/2018,case47,Dead,Location_A,
+case90,CK8UR3,20/10/2018,01/11/2018,case59,Dead,Location_A,
+case91,SS181G,20/10/2018,06/11/2018,case48,Dead,Location_B,
+case92,DWO0QX,20/10/2018,14/11/2018,case60,Dead,Location_A,
+case93,2XE06L,20/10/2018,13/11/2018,case78,Dead,Location_B,
+case94,EHU15B,20/10/2018,02/11/2018,case41,Dead,Location_A,
+case95,T1FYQM,21/10/2018,10/11/2018,case65,Dead,Location_A,
+case96,4KBPSA,21/10/2018,29/10/2018,case51,Dead,Location_A,
+case97,7HAM2G,22/10/2018,04/11/2018,case58,Dead,Location_A,
+case98,Y6RLE7,22/10/2018,18/11/2018,case58,Alive,Location_A,
+case99,7TJ0LM,22/10/2018,14/11/2018,case59,Alive,Location_A,
+case100,T4S46U,22/10/2018,11/11/2018,case67,Dead,Location_A,
+case101,63D84F,22/10/2018,07/11/2018,case70,Dead,Location_A,
+case102,F0VE4K,22/10/2018,31/10/2018,case73,Alive,Location_A,
+case103,8J5085,23/10/2018,13/11/2018,case52,Dead,Location_A,
+case104,H6AS2F,23/10/2018,13/11/2018,case72,Dead,Location_A,
+case105,Q9KRAV,23/10/2018,09/11/2018,case57,Dead,Location_A,
+case106,627XUL,23/10/2018,13/11/2018,case51,Alive,Location_A,
+case107,KUUV4F,23/10/2018,17/11/2018,case84,Dead,Location_A,
+case108,USGQTD,24/10/2018,03/11/2018,case50,Dead,Location_A,
+case109,Z4ET0O,24/10/2018,08/11/2018,case67,Dead,Location_A,
+case110,2SY26C,24/10/2018,17/11/2018,case80,Dead,Location_A,
+case111,NKHEFF,24/10/2018,13/11/2018,case70,Alive,Location_A,
+case112,SA4SD2,24/10/2018,18/11/2018,case69,Dead,Location_B,
+case113,KKFRGH,25/10/2018,23/11/2018,case51,Alive,Location_A,
+case114,KQXQOM,25/10/2018,20/11/2018,case67,Dead,Location_A,
+case115,M58M0R,25/10/2018,10/11/2018,case74,Alive,Location_A,
+case116,3PZFQR,25/10/2018,19/11/2018,case68,Dead,Location_A,
+case117,JLBYI3,25/10/2018,20/11/2018,case71,Dead,Location_A,
+case118,5HGYZ8,25/10/2018,20/11/2018,case59,Dead,Location_A,
+case119,VIOVPW,25/10/2018,02/11/2018,case73,Alive,Location_A,
+case120,8FGFAX,26/10/2018,16/11/2018,case75,Dead,Location_A,
+case121,3XO28A,26/10/2018,31/10/2018,case76,Alive,Location_A,
+case122,2QVKXE,26/10/2018,18/11/2018,case81,Alive,Location_B,
+case123,SNRKZH,27/10/2018,19/11/2018,case67,Dead,Location_A,
+case124,BPJBLE,27/10/2018,22/11/2018,case59,Dead,Location_A,
+case125,ZI0R4E,27/10/2018,19/11/2018,case84,Alive,Location_A,
+case126,0JRG6J,28/10/2018,12/11/2018,case59,Dead,Location_A,
+case127,J47QAX,28/10/2018,11/11/2018,case67,Alive,Location_A,
+case128,GSHAO4,28/10/2018,14/11/2018,case79,Dead,Location_A,
+case129,9K7WRM,28/10/2018,16/11/2018,case67,Alive,Location_A,
+case130,KVBPFM,28/10/2018,18/11/2018,case95,Dead,Location_A,
+case131,AZA4BD,28/10/2018,18/11/2018,case79,Dead,Location_A,
+case132,MTT8E1,28/10/2018,21/11/2018,case95,Alive,Location_A,
+case133,9N6NFG,29/10/2018,15/11/2018,case85,Alive,Location_A,
+case134,FNUC3L,29/10/2018,20/11/2018,case65,Alive,Location_A,
+case135,RWG9RQ,29/10/2018,16/11/2018,case73,Alive,Location_A,
+case136,JDCXFJ,29/10/2018,15/11/2018,case50,Alive,Location_A,
+case137,VBQPLB,30/10/2018,10/11/2018,case94,Dead,Location_A,
+case138,D1AWEI,30/10/2018,09/11/2018,case79,Alive,Location_A,
+case139,MJ383U,30/10/2018,08/11/2018,case80,Dead,Location_A,
+case140,25OM4R,30/10/2018,17/11/2018,case94,Dead,Location_A,
+case141,2D4NJ2,30/10/2018,09/11/2018,case83,Alive,Location_A,
+case142,K4H1XL,30/10/2018,06/11/2018,case63,Dead,Location_A,
+case143,V3GCIE,30/10/2018,22/11/2018,case110,Alive,Location_A,
+case144,XEQ6QH,31/10/2018,17/11/2018,case73,Dead,Location_A,
+case145,6R20NZ,31/10/2018,19/11/2018,case74,Dead,Location_A,
+case146,NSZ6UW,31/10/2018,05/11/2018,case104,Dead,Location_A,
+case147,JMECDV,31/10/2018,22/11/2018,case100,Alive,Location_A,
+case148,E30XBV,31/10/2018,20/11/2018,case81,Dead,Location_B,
+case149,L2QDDQ,01/11/2018,21/11/2018,case84,Alive,Location_A,
+case150,3OBRZD,01/11/2018,14/11/2018,case97,Dead,Location_A,
+case151,N1GUDZ,01/11/2018,16/11/2018,case91,Dead,Location_B,
+case152,H0F7SW,01/11/2018,14/11/2018,case79,Dead,Location_A,
+case153,PB4K0L,01/11/2018,18/11/2018,case98,Dead,Location_A,
+case154,DX1ZWS,01/11/2018,08/11/2018,case78,Alive,Location_B,
+case155,99B0V4,01/11/2018,19/11/2018,case107,Dead,Location_A,
+case156,BUMPHY,01/11/2018,16/11/2018,case98,Dead,Location_A,
+case157,WYEW04,01/11/2018,17/11/2018,case98,Dead,Location_A,
+case158,MXYPXH,02/11/2018,18/11/2018,case99,Dead,Location_A,
+case159,SE1TT3,02/11/2018,23/11/2018,case114,Dead,Location_A,
+case160,MYN6U1,02/11/2018,20/11/2018,case112,Alive,Location_B,
+case161,X8VLDE,02/11/2018,21/11/2018,case120,Alive,Location_A,
+case162,D2VMGO,02/11/2018,16/11/2018,case118,Alive,Location_A,
+case163,IWPWDK,03/11/2018,16/11/2018,case106,Dead,Location_A,
+case164,SH6IAB,03/11/2018,19/11/2018,case127,Dead,Location_A,
+case165,N6OZOD,03/11/2018,17/11/2018,case118,Dead,Location_A,
+case166,TGYDRP,03/11/2018,18/11/2018,case63,Alive,Location_A,
+case167,62OLXX,03/11/2018,14/11/2018,case91,Dead,Location_B,
+case168,RDAUTF,03/11/2018,09/11/2018,case79,Dead,Location_A,
+case169,AHGKTO,03/11/2018,21/11/2018,case107,Dead,Location_A,
+case170,6B3X3G,03/11/2018,23/11/2018,case142,Dead,Location_A,
+case171,YPJ6UA,03/11/2018,18/11/2018,case95,Dead,Location_A,
+case172,8ED86A,03/11/2018,23/11/2018,case78,Dead,Location_B,
+case173,DGVFVC,03/11/2018,08/11/2018,case72,Dead,Location_A,
+case174,HDK9DZ,04/11/2018,17/11/2018,case114,Dead,Location_A,
+case175,NQ8APD,04/11/2018,19/11/2018,case107,Alive,Location_A,
+case176,KPM2F9,04/11/2018,20/11/2018,case98,Dead,Location_A,
+case177,BN75U1,04/11/2018,20/11/2018,case68,Alive,Location_A,
+case178,FBSFBA,05/11/2018,22/11/2018,case111,Dead,Location_A,
+case179,FQU9YP,05/11/2018,24/11/2018,case105,Dead,Location_A,
+case180,YEBHYK,05/11/2018,21/11/2018,case110,Dead,Location_A,
+case181,HGKEPM,05/11/2018,26/11/2018,case126,Dead,Location_A,
+case182,DVEM4A,05/11/2018,18/11/2018,case93,Alive,Location_B,
+case183,N7WTV5,06/11/2018,15/11/2018,case107,Dead,Location_A,
+case184,0XFWGV,06/11/2018,14/11/2018,case123,Alive,Location_A,
+case185,XLTI3J,06/11/2018,23/11/2018,case127,Dead,Location_A,
+case186,536WNJ,06/11/2018,22/11/2018,case129,Dead,Location_A,
+case187,EQ5BK8,06/11/2018,18/11/2018,case132,Dead,Location_A,
+case188,GYB1EP,06/11/2018,22/11/2018,case129,Alive,Location_A,
+case189,N6GFN3,06/11/2018,22/11/2018,case105,Alive,Location_A,
+case190,0CASUJ,06/11/2018,20/11/2018,case125,Dead,Location_A,
+case191,FCE551,07/11/2018,25/11/2018,case115,Dead,Location_A,
+case192,8X48WT,07/11/2018,22/11/2018,case75,Alive,Location_A,
+case193,9I753M,07/11/2018,22/11/2018,case167,Alive,Location_B,
+case194,J70CEK,07/11/2018,19/11/2018,case107,Alive,Location_A,
+case195,JB3OJJ,07/11/2018,21/11/2018,case135,Dead,Location_A,
+case196,R87A61,07/11/2018,17/11/2018,case114,Dead,Location_A,
+case197,LJ1P0M,07/11/2018,22/11/2018,case132,Alive,Location_A,
+case198,8DA6GM,07/11/2018,22/11/2018,case95,Dead,Location_A,
+case199,V2CCPJ,07/11/2018,21/11/2018,case122,Dead,Location_B,
+case200,GTEZTA,07/11/2018,17/11/2018,case130,Alive,Location_A,
+case201,EXFYMP,07/11/2018,22/11/2018,case103,Dead,Location_A,
+case202,YMUH52,08/11/2018,22/11/2018,case118,Dead,Location_A,
+case203,W1V69W,08/11/2018,26/11/2018,case100,Alive,Location_A,
+case204,Z97OVR,08/11/2018,21/11/2018,case99,Dead,Location_A,
+case205,J0L3RG,08/11/2018,23/11/2018,case104,Alive,Location_A,
+case206,CZKVWB,08/11/2018,22/11/2018,case143,Dead,Location_A,
+case207,RFJ37A,08/11/2018,21/11/2018,case127,Dead,Location_A,
+case208,1NC1P6,08/11/2018,21/11/2018,case123,Dead,Location_A,
+case209,33OIP2,08/11/2018,22/11/2018,case131,Alive,Location_A,
+case210,W3OEKV,08/11/2018,23/11/2018,case155,Alive,Location_A,
+case211,1Z5Z6Z,08/11/2018,18/11/2018,case104,Dead,Location_A,
+case212,Z2F9S6,08/11/2018,22/11/2018,case118,Dead,Location_A,
+case213,2LCE5K,08/11/2018,22/11/2018,case112,Dead,Location_B,
+case214,M1688X,09/11/2018,28/11/2018,case107,Dead,Location_A,
+case215,BVMHZP,09/11/2018,22/11/2018,case134,Dead,Location_A,
+case216,TGVCOG,09/11/2018,22/11/2018,case159,Dead,Location_A,
+case217,283Z1N,09/11/2018,21/11/2018,case132,Dead,Location_A,
+case218,WRA82E,09/11/2018,08/12/2018,case131,Dead,Location_A,
+case219,HR3LXQ,09/11/2018,22/11/2018,case163,Dead,Location_A,
+case220,NO0G97,09/11/2018,22/11/2018,case160,Dead,Location_B,
+case221,6MQ1CU,09/11/2018,21/11/2018,case126,Dead,Location_A,
+case222,D59VVE,10/11/2018,24/11/2018,case111,Dead,Location_A,
+case223,F1JC0T,10/11/2018,24/11/2018,case93,Dead,Location_B,
+case224,HU0BMP,10/11/2018,25/11/2018,case120,Alive,Location_A,
+case225,Z0EZ6Y,10/11/2018,02/12/2018,case134,Dead,Location_A,
+case226,Q8EPZP,10/11/2018,17/12/2018,case178,Dead,Location_A,
+case227,X6T1GF,10/11/2018,21/11/2018,case132,Dead,Location_A,
+case228,MS16YZ,10/11/2018,25/11/2018,case103,Alive,Location_A,
+case229,DKPGTY,10/11/2018,21/11/2018,case104,Alive,Location_A,
+case230,324CCY,10/11/2018,26/11/2018,case125,Dead,Location_A,
+case231,KJS67F,10/11/2018,27/11/2018,case132,Alive,Location_A,
+case232,C1B04O,10/11/2018,20/11/2018,case106,Alive,Location_A,
+case233,HDRTPC,11/11/2018,18/11/2018,case132,Dead,Location_A,
+case234,I8ATCY,11/11/2018,20/11/2018,case107,Alive,Location_A,
+case235,1OLZQD,11/11/2018,22/11/2018,case152,Alive,Location_A,
+case236,SDH99J,11/11/2018,18/11/2018,case128,Dead,Location_A,
+case237,TPD2RP,11/11/2018,19/11/2018,case131,Dead,Location_A,
+case238,LHX258,11/11/2018,21/11/2018,case167,Dead,Location_B,
+case239,6ZCHI4,11/11/2018,21/11/2018,case92,Dead,Location_A,
+case240,WUMFX4,11/11/2018,25/11/2018,case131,Dead,Location_A,
+case241,3GPGE0,11/11/2018,29/11/2018,case99,Dead,Location_A,
+case242,8YQL2H,12/11/2018,22/11/2018,case110,Dead,Location_A,
+case243,PI4D9F,12/11/2018,25/11/2018,case163,Dead,Location_A,
+case244,V2R49Z,12/11/2018,22/11/2018,case136,Alive,Location_A,
+case245,7LZPRL,12/11/2018,24/11/2018,case125,Dead,Location_A,
+case246,P4TANG,12/11/2018,21/11/2018,case125,Alive,Location_A,
+case247,XPX5BL,12/11/2018,25/11/2018,case147,Dead,Location_A,
+case248,J3VYK4,13/11/2018,26/11/2018,case135,Dead,Location_A,
+case249,TR7E40,13/11/2018,17/11/2018,case74,Dead,Location_A,
+case250,2YYWOD,13/11/2018,01/12/2018,case120,Alive,Location_A,
+case251,Z1X4FA,13/11/2018,20/11/2018,case129,Dead,Location_A,
+case252,83RKJR,13/11/2018,21/11/2018,case132,Dead,Location_A,
+case253,AHDYFP,13/11/2018,20/11/2018,case160,Dead,Location_B,
+case254,LMVVM6,13/11/2018,25/11/2018,case163,Dead,Location_A,
+case255,GPHYFU,13/11/2018,03/12/2018,case151,Alive,Location_B,
+case256,KZ8L7G,13/11/2018,30/11/2018,case162,Alive,Location_A,
+case257,OPWRUD,13/11/2018,30/11/2018,case140,Dead,Location_A,
+case258,R59SI8,14/11/2018,23/11/2018,case125,Dead,Location_A,
+case259,6W0BJ2,14/11/2018,26/11/2018,case196,Alive,Location_A,
+case260,W88KMJ,14/11/2018,27/11/2018,case132,Dead,Location_A,PHR-92
+case261,RC79UJ,14/11/2018,24/11/2018,case110,Dead,Location_A,
+case262,JOCVF9,14/11/2018,25/11/2018,case107,Dead,Location_A,
+case263,CEONGA,14/11/2018,26/11/2018,case148,Dead,Location_B,
+case264,QOZXHG,14/11/2018,01/12/2018,case144,Alive,Location_A,
+case265,T7AX4X,14/11/2018,24/11/2018,case87,Dead,Location_A,
+case266,HFUWX4,14/11/2018,04/12/2018,case165,Alive,Location_A,
+case267,OF5HRB,14/11/2018,24/11/2018,case185,Dead,Location_A,
+case268,RY4FOX,14/11/2018,03/12/2018,case157,Dead,Location_A,
+case269,V1IN5V,14/11/2018,06/12/2018,case140,Dead,Location_A,
+case270,FTA58X,14/11/2018,29/11/2018,case155,Dead,Location_A,
+case271,LX9URE,14/11/2018,02/12/2018,case200,Dead,Location_A,
+case272,Z6VA46,14/11/2018,01/12/2018,case132,Dead,Location_A,
+case273,C7GMOE,14/11/2018,30/11/2018,case125,Dead,Location_A,
+case274,KT86EL,14/11/2018,28/11/2018,case107,Dead,Location_A,
+case275,79S6T3,15/11/2018,04/12/2018,case131,Alive,Location_A,
+case276,9MK1WM,15/11/2018,27/11/2018,case177,Dead,Location_A,
+case277,43K8PP,15/11/2018,24/11/2018,case132,Alive,Location_A,
+case278,6CMK52,15/11/2018,06/12/2018,case212,Dead,Location_A,
+case279,YRVJOR,15/11/2018,29/11/2018,case98,Alive,Location_A,
+case280,BGF4Q8,15/11/2018,25/11/2018,case187,Dead,Location_A,
+case281,IGDB7X,15/11/2018,04/12/2018,case178,Dead,Location_A,
+case282,18QIM9,15/11/2018,23/11/2018,case182,Dead,Location_B,
+case283,42VRXP,15/11/2018,06/12/2018,case198,Dead,Location_A,
+case284,7ZCYZV,15/11/2018,28/11/2018,case171,Dead,Location_A,
+case285,VXNW5S,15/11/2018,09/12/2018,case185,Dead,Location_A,
+case286,MTBN3K,15/11/2018,19/11/2018,case199,Dead,Location_B,
+case287,O30CT0,15/11/2018,07/12/2018,case166,Dead,Location_A,
+case288,EB6OLW,15/11/2018,27/11/2018,case155,Dead,Location_A,
+case289,HXTW49,15/11/2018,26/11/2018,case153,Dead,Location_A,
+case290,A3DZ23,15/11/2018,26/11/2018,case205,Alive,Location_A,
+case291,3NY750,15/11/2018,07/12/2018,case112,Dead,Location_B,
+case292,URFULZ,15/11/2018,25/11/2018,case130,Dead,Location_A,
+case293,449BAI,15/11/2018,23/11/2018,case122,Dead,Location_B,
+case294,OTOTK0,15/11/2018,03/12/2018,case158,Dead,Location_A,
+case295,03RKJK,15/11/2018,25/11/2018,case178,Dead,Location_A,
+case296,9TIM1A,15/11/2018,05/12/2018,case170,Dead,Location_A,
+case297,C7SO53,16/11/2018,30/11/2018,case132,Alive,Location_A,
+case298,K07K2G,16/11/2018,24/11/2018,case194,Alive,Location_A,
+case299,YKU2NU,16/11/2018,27/11/2018,case194,Alive,Location_A,
+case300,34BWVH,16/11/2018,25/11/2018,case124,Dead,Location_A,
+case301,TLPREY,16/11/2018,08/12/2018,case145,Alive,Location_A,
+case302,I7OOCX,16/11/2018,23/11/2018,case159,Dead,Location_A,
+case303,SUGF0Y,16/11/2018,01/12/2018,case155,Alive,Location_A,
+case304,YYS3OC,16/11/2018,02/12/2018,case123,Dead,Location_A,
+case305,UI8I9J,16/11/2018,26/11/2018,case125,Dead,Location_A,
+case306,WZIO5W,16/11/2018,25/11/2018,case116,Alive,Location_A,
+case307,359W6L,16/11/2018,05/12/2018,case155,Dead,Location_A,
+case308,UWWXBM,16/11/2018,30/11/2018,case237,Dead,Location_A,
+case309,652A03,17/11/2018,02/12/2018,case134,Alive,Location_A,
+case310,UEDMCQ,17/11/2018,01/12/2018,case190,Dead,Location_A,
+case311,DK2E1U,17/11/2018,30/11/2018,case177,Alive,Location_A,
+case312,687D04,17/11/2018,24/11/2018,case147,Dead,Location_A,
+case313,A76L6I,17/11/2018,28/11/2018,case219,Dead,Location_A,
+case314,VBYQ52,17/11/2018,29/11/2018,case148,Alive,Location_B,
+case315,09DKDP,17/11/2018,03/12/2018,case198,Dead,Location_A,
+case316,4VNN7S,17/11/2018,09/12/2018,case117,Alive,Location_A,
+case317,MFE6WR,17/11/2018,25/11/2018,case114,Dead,Location_A,
+case318,60O5MI,17/11/2018,28/11/2018,case118,Alive,Location_A,
+case319,VWRILU,17/11/2018,06/12/2018,case160,Alive,Location_B,
+case320,WD32ZC,18/11/2018,29/11/2018,case197,Dead,Location_A,
+case321,CH9UT3,18/11/2018,05/12/2018,case199,Alive,Location_A,PHR-98
+case322,ZDQJX9,18/11/2018,07/12/2018,case204,Alive,Location_A,
+case323,VT0Z43,18/11/2018,12/12/2018,case169,Alive,Location_A,
+case324,QX6P4W,18/11/2018,30/11/2018,case195,Dead,Location_A,
+case325,D3ODIF,18/11/2018,28/11/2018,case180,Alive,Location_A,
+case326,9CL0QW,18/11/2018,01/12/2018,case149,Dead,Location_A,
+case327,5TZ7U5,18/11/2018,29/11/2018,case186,Alive,Location_A,
+case328,N72Y92,18/11/2018,30/11/2018,case227,Dead,Location_A,
+case329,1FHP6H,18/11/2018,06/12/2018,case209,Dead,Location_A,
+case330,DVVTGC,18/11/2018,05/12/2018,case221,Dead,Location_A,
+case331,SDT2WX,18/11/2018,30/11/2018,case239,Dead,Location_A,
+case332,HPFRTL,18/11/2018,24/11/2018,case208,Dead,Location_A,
+case333,ADDPWB,18/11/2018,01/12/2018,case207,Dead,Location_A,
+case334,7HSPXL,18/11/2018,25/11/2018,case219,Alive,Location_A,
+case335,W7LN6Q,18/11/2018,25/11/2018,case180,Dead,Location_A,
+case336,YEAJYF,18/11/2018,01/12/2018,case195,Dead,Location_A,
+case337,KE254Y,18/11/2018,01/12/2018,case172,Dead,Location_B,
+case338,CXTX5D,18/11/2018,03/12/2018,case202,Dead,Location_A,
+case339,X7ON99,18/11/2018,27/11/2018,case132,Dead,Location_A,PHR-93
+case340,43S3CH,18/11/2018,04/12/2018,case147,Dead,Location_A,
+case341,QFA4MV,18/11/2018,04/12/2018,case172,Alive,Location_B,
+case342,W8MRAF,19/11/2018,30/11/2018,case147,Alive,Location_A,
+case343,D3BZ72,19/11/2018,02/12/2018,case213,Dead,Location_B,
+case344,G4JP5T,19/11/2018,07/12/2018,case124,Dead,Location_A,
+case345,0I8PN7,19/11/2018,30/11/2018,case202,Dead,Location_A,
+case346,IG5ER8,19/11/2018,30/11/2018,case220,Dead,Location_B,
+case347,72QYQ7,19/11/2018,07/12/2018,case216,Alive,Location_A,
+case348,HSZLAE,19/11/2018,01/12/2018,case143,Dead,Location_A,
+case349,27H197,19/11/2018,30/11/2018,case216,Dead,Location_A,
+case350,S7Y39H,19/11/2018,27/11/2018,case189,Dead,Location_A,
+case351,5063CD,19/11/2018,08/12/2018,case197,Alive,Location_A,
+case352,ZUGLB8,19/11/2018,08/12/2018,case178,Alive,Location_A,PHR-101
+case353,4C10L7,19/11/2018,03/12/2018,case219,Dead,Location_A,
+case354,9SLOQP,19/11/2018,20/12/2018,case198,Alive,Location_A,
+case355,2PGCTQ,19/11/2018,04/12/2018,case242,Dead,Location_A,
+case356,AB81KI,19/11/2018,04/12/2018,case219,Alive,Location_A,
+case357,BTKTKA,19/11/2018,28/11/2018,case215,Dead,Location_A,
+case358,SYML43,19/11/2018,02/12/2018,case185,Dead,Location_A,
+case359,TWKSV8,19/11/2018,08/12/2018,case212,Dead,Location_A,
+case360,913SZF,19/11/2018,01/12/2018,case186,Dead,Location_A,
+case361,WJGUV1,19/11/2018,01/12/2018,case201,Alive,Location_A,
+case362,F7DX76,19/11/2018,06/12/2018,case178,Alive,Location_A,
+case363,L0Z1XN,19/11/2018,29/11/2018,case206,Dead,Location_A,
+case364,HZOHEN,19/11/2018,30/11/2018,case209,Dead,Location_A,
+case365,L9FHF1,20/11/2018,29/11/2018,case205,Dead,Location_A,
+case366,YO6SER,20/11/2018,10/12/2018,case185,Dead,Location_C,PHR-103
+case367,RHCDJ5,20/11/2018,08/12/2018,case170,Dead,Location_A,
+case368,T36PCQ,20/11/2018,08/12/2018,case172,Dead,Location_B,
+case369,T7ERZ5,20/11/2018,28/11/2018,case159,Dead,Location_A,
+case370,Q1ZVN2,20/11/2018,28/11/2018,case258,Alive,Location_A,PHR-94

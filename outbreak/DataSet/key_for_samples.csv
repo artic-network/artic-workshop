@@ -1,0 +1,7 @@
+Case No.,Patient ID,Sample ID,onsetTime,sampleTime,sampleDate,parentId,Parent PHR,childrenId,Location,Notes
+case260,W88KMJ,PHR-92,93.68,107.4501388,2018-11-27,case132,PHR-85,No contacts yet,A,From super spreader 132 (PHR-85)
+case339,X7ON99,PHR-93,98.51,106.7792895,2018-11-27,case132,PHR-85,No contacts yet,A,"Links with super spreader who infected case 260, but sample is degraded and contaminated."
+case321,CH9UT3,PHR-98,97.72,115.3846966,2018-12-05,case199,Unknown,No contacts yet,A,Really from location B
+case352,ZUGLB8,PHR-101,98.99,118.0666482,2018-12-08,case178,PHR-89,No contacts yet,A,From household with 178 (PHR-89)
+case370,Q1ZVN2,PHR-94,99.98,107.8929613,2018-11-28,case258,Unknown,No forward transmission,A,Epidemiological link to 178 household but actually genetically distinct (decends from PHR-71)
+case366,YO6SER,PHR-103,99.68,119.5765524,2018-12-10,case185,Unknown,NA,C,"From a new location but really outbreak C (i.e., new zoonosis)."

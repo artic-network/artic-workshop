@@ -1,0 +1,7 @@
+id,case,amplicon1,amplicon2,amplicon3,amplicon4,amplicon5,amplicon6
+PHR-103,OB_C,C,W,J,M,V,D
+PHR-92,case260,L,Y,P,G,V,X
+PHR-98,case321,R,A,N,G,V,K
+PHR-101,case352,H,S,E,O,V,U
+PHR-94,case370,F,T,I,Q,V,Z
+PHR-93,case371[all_low_conc],R+H,A+S,none,B,V,U

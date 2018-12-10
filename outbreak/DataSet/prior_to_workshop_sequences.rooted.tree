@@ -1,0 +1,138 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=36;
+	taxlabels
+	PHR-11_Location_A_2018-09-30[&Location="A"]
+	PHR-15_Location_B_2018-10-01[&Location="B"]
+	PHR-17_Location_A_2018-10-02[&Location="A"]
+	PHR-20_Location_A_2018-10-02[&Location="A"]
+	PHR-22_Location_A_2018-10-03[&Location="A"]
+	PHR-25_Location_A_2018-10-04[&Location="A"]
+	PHR-27_Location_A_2018-10-07[&Location="A"]
+	PHR-28_Location_A_2018-10-07[&Location="A"]
+	PHR-30_Location_A_2018-10-07[&Location="A"]
+	PHR-33_Location_A_2018-10-08[&Location="A"]
+	PHR-36_Location_A_2018-10-10[&Location="A"]
+	PHR-39_Location_A_2018-10-13[&Location="A"]
+	PHR-3_Location_A_2018-09-18[&Location="A"]
+	PHR-40_Location_A_2018-10-14[&Location="A"]
+	PHR-42_Location_A_2018-10-14[&Location="A"]
+	PHR-43_Location_A_2018-10-15[&Location="A"]
+	PHR-44_Location_B_2018-10-17[&Location="B"]
+	PHR-46_Location_A_2018-10-22[&Location="A"]
+	PHR-47_Location_A_2018-10-28[&Location="A"]
+	PHR-51_Location_A_2018-10-31[&Location="A"]
+	PHR-54_Location_A_2018-10-31[&Location="A"]
+	PHR-57_Location_B_2018-11-03[&Location="B"]
+	PHR-60_Location_A_2018-11-06[&Location="A"]
+	PHR-66_Location_A_2018-11-10[&Location="A"]
+	PHR-67_Location_A_2018-11-12[&Location="A"]
+	PHR-6_Location_A_2018-09-27[&Location="A"]
+	PHR-71_Location_A_2018-11-13[&Location="A"]
+	PHR-74_Location_A_2018-11-17[&Location="A"]
+	PHR-75_Location_A_2018-11-18[&Location="A"]
+	PHR-77_Location_A_2018-11-19[&Location="A"]
+	PHR-78_Location_A_2018-11-19[&Location="A"]
+	PHR-79_Location_A_2018-11-19[&Location="A"]
+	PHR-83_Location_A_2018-11-21[&Location="A"]
+	PHR-85_Location_A_2018-11-21[&Location="A"]
+	PHR-89_Location_A_2018-11-22[&Location="A"]
+	PHR-9_Location_A_2018-09-30[&Location="A"]
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] ((PHR-9_Location_A_2018-09-30[&Location="A"]:3.27E-4,PHR-43_Location_A_2018-10-15[&Location="A"]:2.0E-6)[&Location="A"]:0.001011,(((((((PHR-25_Location_A_2018-10-04[&Location="A"]:3.27E-4,(PHR-51_Location_A_2018-10-31[&Location="A"]:6.54E-4,(PHR-46_Location_A_2018-10-22[&Location="A"]:3.27E-4,(PHR-83_Location_A_2018-11-21[&Location="A"]:3.27E-4,PHR-78_Location_A_2018-11-19[&Location="A"]:2.0E-6)[&Location="A"]:3.27E-4)[&Location="A"]:3.27E-4)[&Location="A"]:9.83E-4)[&Location="A"]:6.54E-4,PHR-36_Location_A_2018-10-10[&Location="A"]:3.27E-4)[&Location="A"]:1.0E-6,((((((PHR-39_Location_A_2018-10-13[&Location="A"]:2.0E-6,(PHR-40_Location_A_2018-10-14[&Location="A"]:2.0E-6,PHR-67_Location_A_2018-11-12[&Location="A"]:6.54E-4)[&Location="A"]:3.26E-4)[&Location="A"]:3.0E-6,PHR-75_Location_A_2018-11-18[&Location="A"]:0.001635)[&Location="A"]:3.27E-4,PHR-42_Location_A_2018-10-14[&Location="A"]:3.27E-4)[&Location="A"]:1.0E-6,PHR-30_Location_A_2018-10-07[&Location="A"]:1.0E-6)[&Location="A"]:1.0E-6,PHR-27_Location_A_2018-10-07[&Location="A"]:2.0E-6)[&Location="A"]:3.27E-4,PHR-60_Location_A_2018-11-06[&Location="A"]:0.002291)[&Location="A"]:2.0E-6)[&Location="A"]:1.0E-6,(PHR-28_Location_A_2018-10-07[&Location="A"]:2.0E-6,PHR-47_Location_A_2018-10-28[&Location="A"]:6.54E-4)[&Location="A"]:6.54E-4)[&Location="A"]:3.26E-4,((PHR-3_Location_A_2018-09-18[&Location="A"]:0.0,PHR-17_Location_A_2018-10-02[&Location="A"]:0.0)[&Location="A"]:1.0E-6,PHR-33_Location_A_2018-10-08[&Location="A"]:1.0E-6)[&Location="A"]:9.81E-4)[&Location="A"]:2.0E-6,((PHR-20_Location_A_2018-10-02[&Location="A"]:3.27E-4,((PHR-15_Location_B_2018-10-01[&Location="B"]:3.27E-4,PHR-57_Location_B_2018-11-03[&Location="B"]:0.001309)[&Location="B"]:3.26E-4,PHR-44_Location_B_2018-10-17[&Location="B"]:0.001309)[&Location="B"]:1.0E-6)[&Location="A"]:3.27E-4,PHR-6_Location_A_2018-09-27[&Location="A"]:6.54E-4)[&Location="A"]:1.0E-6)[&Location="A"]:2.0E-6,(PHR-11_Location_A_2018-09-30[&Location="A"]:3.27E-4,(((PHR-22_Location_A_2018-10-03[&Location="A"]:2.0E-6,((PHR-71_Location_A_2018-11-13[&Location="A"]:3.26E-4,PHR-89_Location_A_2018-11-22[&Location="A"]:3.27E-4)[&Location="A"]:9.81E-4,(PHR-66_Location_A_2018-11-10[&Location="A"]:3.26E-4,PHR-85_Location_A_2018-11-21[&Location="A"]:6.55E-4)[&Location="A"]:6.54E-4)[&Location="A"]:1.0E-6)[&Location="A"]:1.0E-6,((PHR-79_Location_A_2018-11-19[&Location="A"]:3.27E-4,PHR-74_Location_A_2018-11-17[&Location="A"]:6.53E-4)[&Location="A"]:2.0E-6,PHR-54_Location_A_2018-10-31[&Location="A"]:1.0E-6)[&Location="A"]:1.0E-6)[&Location="A"]:3.0E-6,PHR-77_Location_A_2018-11-19[&Location="A"]:3.26E-4)[&Location="A"]:3.26E-4)[&Location="A"]:3.27E-4)[&Location="A"]:6.25E-4)[&Location="A"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="Location";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=4.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Helvetica Neue";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="Location";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Helvetica Neue";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="Location";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=13.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica Neue";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
