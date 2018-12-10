@@ -4,7 +4,7 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "../outbreak/all.fasta", ##
+        input_fasta = "../outbreak/all_sample_sequences.fasta", ##
         reference = "../reference_genomes/reference_genome.gb",
         colors = "config/colors.tsv”, ##
         lat_longs = "config/lat_longs.tsv", ##
