@@ -1,4 +1,7 @@
 location	Location_A	#2c7fb8
 location	Location_B	#d95f0e
-location	Location_C	#1f3443
-
+location	Location_C	#a6d96a
+location	unknown	#1f3443
+context	outbreak	#018571
+context	historical	#a6611a
+context	Ghana18	#d01c8b

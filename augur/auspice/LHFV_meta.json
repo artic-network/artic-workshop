@@ -43,6 +43,26 @@
   },
   "author_info": {},
   "color_options": {
+    "context": {
+      "color_map": [
+        [
+          "outbreak",
+          "#018571"
+        ],
+        [
+          "historical",
+          "#a6611a"
+        ],
+        [
+          "Ghana18",
+          "#d01c8b"
+        ]
+      ],
+      "key": "context",
+      "legendTitle": "context",
+      "menuItem": "context",
+      "type": "discrete"
+    },
     "gt": {
       "key": "genotype",
       "legendTitle": "Genotype",
@@ -61,12 +81,17 @@
         ],
         [
           "Location_C",
+          "#a6d96a"
+        ],
+        [
+          "unknown",
           "#1f3443"
         ]
       ],
       "key": "location",
       "legendTitle": "location",
-      "menuItem": "location"
+      "menuItem": "location",
+      "type": "discrete"
     },
     "num_date": {
       "key": "num_date",
@@ -88,6 +113,10 @@
       "Location_C": {
         "latitude": 52.2,
         "longitude": 0.12
+      },
+      "unknown": {
+        "latitude": 56.2,
+        "longitude": 3.14
       }
     }
   },
@@ -101,6 +130,6 @@
     "entropy"
   ],
   "title": "LHFV Current Outbreak Simulation",
-  "updated": "10 Dec 2018",
-  "virus_count": 45
+  "updated": "14 Dec 2018",
+  "virus_count": 51
 }

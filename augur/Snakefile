@@ -4,7 +4,7 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "../outbreak/DataSet/all_sample_sequences.fasta",
+        input_fasta = "LHFV.fasta",
         reference = "../reference_genomes/reference_genome.gb",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
@@ -20,7 +20,7 @@ rule parse:
         sequences = "results/sequences.fasta",
         metadata = "results/metadata.tsv"
     params:
-        fasta_fields = "strain location date"
+        fasta_fields = "strain location date context"
     shell:
         """
         augur parse \
@@ -115,6 +115,27 @@ rule ancestral:
             --inference {params.inference}
         """
 
+rule traits:
+    message: "Infer location using DTA"
+    input:
+        tree = rules.refine.output.tree,
+        alignment = rules.align.output,
+        metadata = rules.parse.output.metadata
+    output:
+        node_data = "results/dta.json"
+    params:
+        inference = "joint",
+        fields = "location"
+    shell:
+        """
+        augur traits \
+            --columns {params.fields} \
+            --tree {input.tree} \
+            --output {output.node_data} \
+            --confidence \
+            --metadata {rules.parse.output.metadata}
+        """    
+
 rule translate:
     message: "Translating amino acid sequences"
     input:
@@ -142,7 +163,8 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
         lat_longs = files.lat_longs,
-        auspice_config = files.auspice_config
+        auspice_config = files.auspice_config,
+        traits = rules.traits.output.node_data
     output:
         auspice_tree = "auspice/LHFV_tree.json",
         auspice_meta = "auspice/LHFV_meta.json"

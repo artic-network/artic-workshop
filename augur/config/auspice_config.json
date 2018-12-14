@@ -14,6 +14,10 @@
       "key": "num_date"
     },
     "location": {
+      "type": "discrete"
+    },
+    "context": {
+      "type": "discrete"
     }
   },
   "geo": [
